@@ -9,7 +9,11 @@ objectives:
 keypoints:
 - "First key point. Brief Answer to questions. (FIXME)"
 ---
-FIXME
+What is FAIR?
+
+Why FAIR?
+
+Try to find out what community standards and conventions exist for you domain and try to adhere to them
 
 {% include links.md %}
 
