@@ -100,3 +100,14 @@ exclude:
 
 # Turn on built-in syntax highlighting.
 highlighter: rouge
+
+# Set manual episode order:
+episode_order:
+  - introduction
+  - documentation
+  - metadata
+  - format
+  - access
+  - identifiers
+  - licenses
+  - conclusion
