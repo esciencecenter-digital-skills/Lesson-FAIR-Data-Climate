@@ -89,4 +89,26 @@ How to include a licence
 ------------------------
 
 
+
+
+Excercises
+----------
+
+> ## Excercise 1
+>- When was the last time you published some data?
+>- What licence did you distribute it under?
+>- Where did you share the data?
+{: .discussion}
+
+> ## Excercise 2
+>- Imagine you have downloaded some data from source X and applied operation Y on it.
+>- Which data licence should you >put on it when you distribute the data?
+>- Which licence can you not put on it when you distribute the data?
+{: .discussion}
+
+> ## Excercise 3
+>- Take a few minutes to find out whether your institute has a license policy. What does it say?
+{: .discussion}
+
+
 {% include links.md %}
