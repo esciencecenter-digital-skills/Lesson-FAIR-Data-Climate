@@ -24,7 +24,7 @@ General info on licenses
 Let's get started with a small exercise.
 
 > ## Choosing a licence
-> Go to [https://chooser-beta.creativecommons.org/] and follow the steps.
+> Go to <https://chooser-beta.creativecommons.org/> and follow the steps.
 >
 >- What licence did you arrive at?
 >- Does the licence fit with the FAIR principles?
@@ -52,7 +52,7 @@ These are some points to consider when choosing a licence:
 - The less restrictions you add to your data, the more it can be re-used
 
 Further reading:
-- [https://www.dcc.ac.uk/guidance/how-guides/license-research-data]
+- <https://www.dcc.ac.uk/guidance/how-guides/license-research-data>
 
 
 Licences in Geoscience
@@ -60,7 +60,20 @@ Licences in Geoscience
 
 - CMIP5 and CMIP6 licenses (special case, example)
 
+- CMIP6: https://pcmdi.llnl.gov/CMIP6/TermsOfUse/TermsOfUse6-1.html
+- CMIP5: https://pcmdi.llnl.gov/mips/cmip5/terms-of-use.html
+- CORDEX: http://is-enes-data.github.io/cordex_terms_of_use.pdf
 
+>## Exercise
+>- How do the terms of use for CMIP6 data differ from the Creative Commons licences? What about CMIP5?
+>- Can you reshare the data?
+>- Should you attribute the authors of the data? If so, how?
+>- Can derived data be used commecially?
+>- **FIXME**: check what the answer should be
+{: .discussion}
+
+Further reading:
+- https://gmd.copernicus.org/articles/11/3659/2018/ (Section 4)
 
 License restrictions
 --------------------
@@ -94,19 +107,19 @@ How to include a licence
 Excercises
 ----------
 
-> ## Excercise 1
+> ## Excercise
 >- When was the last time you published some data?
 >- What licence did you distribute it under?
 >- Where did you share the data?
 {: .discussion}
 
-> ## Excercise 2
+> ## Excercise
 >- Imagine you have downloaded some data from source X and applied operation Y on it.
 >- Which data licence should you >put on it when you distribute the data?
 >- Which licence can you not put on it when you distribute the data?
 {: .discussion}
 
-> ## Excercise 3
+> ## Excercise
 >- Take a few minutes to find out whether your institute has a license policy. What does it say?
 {: .discussion}
 
