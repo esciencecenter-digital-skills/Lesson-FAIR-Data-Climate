@@ -72,7 +72,7 @@ You can find the Terms of Use for some widely used projects here:
 - CMIP5: <https://pcmdi.llnl.gov/mips/cmip5/terms-of-use.html>
 - CORDEX: <http://is-enes-data.github.io/cordex_terms_of_use.pdf>
 
->## Exercise
+>## Discussion
 >- How do the terms of use for CMIP6 data differ from the Creative Commons licences?
 >- Can you reshare the data?
 >- Should you attribute the authors of the data? If so, how?
