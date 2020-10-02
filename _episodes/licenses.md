@@ -53,6 +53,7 @@ These are some points to consider when choosing a licence:
 
 Further reading:
 - <https://www.dcc.ac.uk/guidance/how-guides/license-research-data>
+- <https://www.openaire.eu/research-data-how-to-license/>
 
 
 Licences in Geoscience
@@ -91,18 +92,23 @@ What does the EU (or other funding agency) require?
 
 
 
-- When was the last time you published some data? What licence did you distribute it under? Where did you share the data? Discuss.
-
-- Imagine you have downloaded some data from source X and applied operation Y on it. Which data licence should you put on it when you distribute the data? Which licence can you not put on it when you distribute the data?
-
-- Take a few minutes to find out whether your institute has a license policy. What does it say? Discuss with other participants.
-
-
-How to include a licence
-------------------------
 
 
 
+
+How are licences applied to research data?
+------------------------------------------
+
+Adding a licence to data is easy. You just need to mention or refer to the licence in the same place where you upload your data. Some repositories like Zenodo allow you to select a licence, and they make sure it is clear under which licence the data are available.
+
+You can apply a licence by one of these ways:
+
+- Choosing a licence when you upload your data to a repository
+- Referring to the licence on the webpage where the data are hosted
+- Attaching the licence to the metadata
+- Adding a readme file / licence file to your data
+
+The (licence chooser)[https://chooser-beta.creativecommons.org/] can help you generate a plain text or html snippet to add to your readme or website.
 
 Excercises
 ----------
