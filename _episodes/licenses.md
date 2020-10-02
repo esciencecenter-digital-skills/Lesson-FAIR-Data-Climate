@@ -1,7 +1,7 @@
 ---
 title: "Data licenses"
-teaching: 0
-exercises: 0
+teaching: 20
+exercises: 10
 questions:
 - "What is a data licence?"
 - "Which data licence should I use for climate data?"
@@ -31,7 +31,7 @@ Let's get started with a small exercise.
 >- Discuss.
 {: .challenge}
 
-One of the key parts of FAIR data is that they are re-usable not only practically, but also legally. By attaching a licence to your work, you specify who can reuse your data, for which purposes, and what should be done with derived work. Creative Commons (CC) are the most used licence in research. They are widely recognized, easy to apply, and juridically sound. The CC licence is built on four cornerstones:
+One of the key parts of FAIR data is that they are **reusable** not only practically, but also legally. By attaching a licence to your work, you specify who can reuse your data, for which purposes, and what should be done with derived work. Creative Commons (CC) are the most used licence in research. They are widely recognized, easy to apply, and juridically sound. The CC licence is built on four cornerstones:
 
 - Attribution (BY): Credit must be given to you, the creator.
 - Share-Alike (SA): Adaptations must be shared under the same terms.
@@ -87,14 +87,23 @@ Institutions’ policies on licenses
 
 
 
-What does the EU (or other funding agency) require?
----------------------------------------------------
+What does the EU require?
+-------------------------
 
+The European Commission has fully embraced the FAIR principles. Horizon2020 already mandates open access to all scientific publications, and is now running a pilot from 2017 for research data to be open by default with possibilities to opt out.
 
+How the data will be licenced is part of the data management plan. Specificically:
 
+- How will the data be licensed to permit the widest re-use possible?
+- When will the data be made available for re-use (i.e. are the data under embargo)?
+- Are the data usable by third parties (i.e. are there restrictions)?
 
+In all cases, the Commission encourages researchers to provide access to their data in the broadest sense. They encourage authors to retain their copyright, but grant adequate licences to publishers. They recommend the Creative Common licences as a useful legal tool for providing open access.
 
-
+Further reading:
+- <https://ec.europa.eu/research/participants/docs/h2020-funding-guide/cross-cutting-issues/open-access-data-management/open-access_en.htm>
+- <https://ec.europa.eu/research/participants/data/ref/h2020/other/hi/oa-pilot/h2020-infograph-open-research-data_en.pdf>
+- In case you are really interested, have a look at [p251-253 of the Horizon2020 Programme](https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/amga/h2020-amga_en.pdf)
 
 How are licences applied to research data?
 ------------------------------------------
@@ -108,7 +117,7 @@ You can apply a licence by one of these ways:
 - Attaching the licence to the metadata
 - Adding a readme file / licence file to your data
 
-The (licence chooser)[https://chooser-beta.creativecommons.org/] can help you generate a plain text or html snippet to add to your readme or website.
+The [licence chooser](https://chooser-beta.creativecommons.org/) can help you generate a plain text or html snippet to add to your readme or website.
 
 Excercises
 ----------
