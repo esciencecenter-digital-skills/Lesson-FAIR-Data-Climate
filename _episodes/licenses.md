@@ -130,7 +130,15 @@ How the data will be licenced is part of the data management plan. Specificicall
 - When will the data be made available for re-use (i.e. are the data under embargo)?
 - Are the data usable by third parties (i.e. are there restrictions)?
 
-In all cases, the Commission encourages researchers to provide access to their data in the broadest sense. They encourage authors to retain their copyright, but grant adequate licences to publishers. They recommend the Creative Common licences as a useful legal tool for providing open access.
+> ## Excercise
+>Which licence does the European Commission recommend for data acquired under the Horizon 2020 Programme?
+>
+>> ## Solution
+>>The European Commission encourages researchers to provide access to their data in the broadest sense.
+>>They encourage authors to retain their copyright, but grant adequate licences to publishers.
+>>They recommend the Creative Common licences as a useful legal tool for providing open access.
+>{: .solution}
+{: .discussion}
 
 Further reading:
 - <https://ec.europa.eu/research/participants/docs/h2020-funding-guide/cross-cutting-issues/open-access-data-management/open-access_en.htm>
