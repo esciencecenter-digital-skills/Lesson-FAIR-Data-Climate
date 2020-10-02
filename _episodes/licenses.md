@@ -73,16 +73,16 @@ You can find the Terms of Use for some widely used projects here:
 - CORDEX: <http://is-enes-data.github.io/cordex_terms_of_use.pdf>
 
 >## Exercise
->- Where can you find the licence for CMIP6 data? What about CMIP5?
 >- How do the terms of use for CMIP6 data differ from the Creative Commons licences?
 >- Can you reshare the data?
 >- Should you attribute the authors of the data? If so, how?
 >- Can derived data be used commecially?
+>- Can you find additional terms of licences that are applicable to your situation?
 >- **FIXME**: check what the answer should be
 {: .discussion}
 
 Further reading:
-- https://gmd.copernicus.org/articles/11/3659/2018/ (Section 4)
+- <https://gmd.copernicus.org/articles/11/3659/2018/> (Section 4)
 
 
 
@@ -105,10 +105,15 @@ Data ownership is defined in the data management plan
 >
 >- What does it say?
 >- Who owns *your* data?
+>- What do you do if your institution does not have a policy?
 {: .discussion}
 
 > ## Excercise
->- Imagine you have downloaded some data from source X and applied operation Y on it.
+> Imagine, some researchers have SOME CRAZY EXAMPLE
+>
+> They have deposited the data on their insitutes website under the data under CC-BY 4.0.
+>
+>- Do you see any problems with the licence they chose?
 >- Which data licence should you put on it when you distribute the data?
 >- Which licence can you not put on it when you distribute the data?
 {: .discussion}
@@ -145,5 +150,9 @@ You can apply a licence by one of these ways:
 - Adding a readme file / licence file to your data
 
 The [licence chooser](https://chooser-beta.creativecommons.org/) can help you generate a plain text or html snippet to add to your readme or website.
+
+> ## Note
+> Specific to climate related research, CMIP6 explicitly requires you to add the licence to the metadata
+{: .callout}
 
 {% include links.md %}
