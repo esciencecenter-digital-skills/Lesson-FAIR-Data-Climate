@@ -89,16 +89,14 @@ Further reading:
 Data ownership
 --------------
 
-Possible owners of the data:
+One of the major challenges with data licences is data ownership. Who actually owns the data? Can other parties use the data and what control do you have over the data as the owner? These points are addressed by the licence file.
+
+For any acacemic institute, there are three possible owners of the data:
 - You
 - Institute you work for
 - Funding agency
 
-
-You may be restricted by your institutions’ policies on licenses
-
-Data ownership is defined in the data management plan
-
+Data ownership is defined in the data management plan. You may be restricted by your institutions’ policies on licenses.
 
 > ## Excercise
 >Take a few minutes to find out whether your institute has a license policy.
