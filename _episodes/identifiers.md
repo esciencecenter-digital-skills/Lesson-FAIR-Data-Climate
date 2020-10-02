@@ -42,6 +42,7 @@ This gives you a way to version your data.
 
 Further reading:
 - https://www.go-fair.org/fair-principles/f1-meta-data-assigned-globally-unique-persistent-identifiers/
+- https://librarycarpentry.org/lc-fair-research/02-findable/index.html
 
 
 {% include links.md %}
