@@ -135,7 +135,7 @@ Further reading:
 How are licences applied to research data?
 ------------------------------------------
 
-Adding a licence to data is easy. You just need to mention or refer to the licence in the same place where you upload your data. Some repositories like Zenodo allow you to select a licence, and they make sure it is clear under which licence the data are available.
+In principle, a licence is valid when it is mentioned or referred to in the same place where you upload your data. Some repositories like Zenodo allow you to select a licence, and they make sure it is clear under which licence the data are available.
 
 You can apply a licence by one of these ways:
 
