@@ -84,8 +84,6 @@ You can find the Terms of Use for some widely used projects here:
 Further reading:
 - <https://gmd.copernicus.org/articles/11/3659/2018/> (Section 4)
 
-
-
 Data ownership
 --------------
 
@@ -115,7 +113,6 @@ Data ownership is defined in the data management plan. You may be restricted by 
 >- Which data licence should you put on it when you distribute the data?
 >- Which licence can you not put on it when you distribute the data?
 {: .discussion}
-
 
 What does the EU require?
 -------------------------
