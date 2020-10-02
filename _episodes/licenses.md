@@ -55,18 +55,26 @@ Further reading:
 - <https://www.dcc.ac.uk/guidance/how-guides/license-research-data>
 - <https://www.openaire.eu/research-data-how-to-license/>
 
+> ## Excercise
+>- When was the last time you published some data?
+>- What licence did you distribute it under?
+>- Where did you share the data?
+{: .discussion}
 
 Licences in Geoscience
----------------------------
+----------------------
 
-- CMIP5 and CMIP6 licenses (special case, example)
+In general, data sources in geoscience such as CMIP5 and CMIP6 are available under FAIR licences. That is, you can freely use the data, but there are still some requirements. For example, if you base your research on CMIP6 data, you must give proper credit to the project if you deposit your research data somewhere. This is specified in the Terms of Use.
 
-- CMIP6: https://pcmdi.llnl.gov/CMIP6/TermsOfUse/TermsOfUse6-1.html
-- CMIP5: https://pcmdi.llnl.gov/mips/cmip5/terms-of-use.html
-- CORDEX: http://is-enes-data.github.io/cordex_terms_of_use.pdf
+You can find the Terms of Use for some widely used projects here:
+
+- CMIP6: <https://pcmdi.llnl.gov/CMIP6/TermsOfUse/TermsOfUse6-1.html>
+- CMIP5: <https://pcmdi.llnl.gov/mips/cmip5/terms-of-use.html>
+- CORDEX: <http://is-enes-data.github.io/cordex_terms_of_use.pdf>
 
 >## Exercise
->- How do the terms of use for CMIP6 data differ from the Creative Commons licences? What about CMIP5?
+>- Where can you find the licence for CMIP6 data? What about CMIP5?
+>- How do the terms of use for CMIP6 data differ from the Creative Commons licences?
 >- Can you reshare the data?
 >- Should you attribute the authors of the data? If so, how?
 >- Can derived data be used commecially?
@@ -76,15 +84,34 @@ Licences in Geoscience
 Further reading:
 - https://gmd.copernicus.org/articles/11/3659/2018/ (Section 4)
 
-License restrictions
---------------------
-
-- share alike etc. for derived data
 
 
-Institutions’ policies on licenses
-----------------------------------
+Data ownership
+--------------
 
+Possible owners of the data:
+- You
+- Institute you work for
+- Funding agency
+
+
+You may be restricted by your institutions’ policies on licenses
+
+Data ownership is defined in the data management plan
+
+
+> ## Excercise
+>Take a few minutes to find out whether your institute has a license policy.
+>
+>- What does it say?
+>- Who owns *your* data?
+{: .discussion}
+
+> ## Excercise
+>- Imagine you have downloaded some data from source X and applied operation Y on it.
+>- Which data licence should you put on it when you distribute the data?
+>- Which licence can you not put on it when you distribute the data?
+{: .discussion}
 
 
 What does the EU require?
@@ -118,25 +145,5 @@ You can apply a licence by one of these ways:
 - Adding a readme file / licence file to your data
 
 The [licence chooser](https://chooser-beta.creativecommons.org/) can help you generate a plain text or html snippet to add to your readme or website.
-
-Excercises
-----------
-
-> ## Excercise
->- When was the last time you published some data?
->- What licence did you distribute it under?
->- Where did you share the data?
-{: .discussion}
-
-> ## Excercise
->- Imagine you have downloaded some data from source X and applied operation Y on it.
->- Which data licence should you >put on it when you distribute the data?
->- Which licence can you not put on it when you distribute the data?
-{: .discussion}
-
-> ## Excercise
->- Take a few minutes to find out whether your institute has a license policy. What does it say?
-{: .discussion}
-
 
 {% include links.md %}
