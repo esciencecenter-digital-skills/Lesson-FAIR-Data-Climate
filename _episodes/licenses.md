@@ -55,7 +55,7 @@ Further reading:
 - <https://www.dcc.ac.uk/guidance/how-guides/license-research-data>
 - <https://www.openaire.eu/research-data-how-to-license/>
 
-> ## Excercise
+> ## Discussion
 >- When was the last time you published some data?
 >- What licence did you distribute it under?
 >- Where did you share the data?
