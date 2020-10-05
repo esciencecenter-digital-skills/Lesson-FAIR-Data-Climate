@@ -5,16 +5,15 @@ exercises: 0
 questions:
 - "What is a file format?"
 - "What file formats should I use?"
--
 objectives:
 - "Name common formats used in climate-related domains."
 - "Understand different types of data."
 - "Choose correct file formats for your work."
 
 keypoints:
-- "Choose formats that are common to your field/community."
+- "Choose formats that are common to your field/community to ensure the interoperability and reusability of your data."
+- "Make sure that the file formats you choose can hold the necessary data elements and information."
 - "Decide on how long do you intend to preserve your data."
-- "Use a common, multi-platform file format."
 - "Make sure to check requirements of the repository where data is stored."
 ---
 
@@ -63,22 +62,22 @@ Here is a list of some common formats:
   some information about how the data were produced.
   The metadata is stored as netCDF attributes that are always single values or one-dimensional arrays.
 
-> ## Discuss NetCDF format
+> ## Why NetCDF format
 >
-> You work with some geo-spatial data for a project in your community.
-> You choose NetCDF format for the data.
+> You work with some geospatial data for a project in your community.
+> You choose the NetCDF format for the data.
 > Your colleague asks:
 >
-> 1. why did you choose NetCDF format?
-> 2. does this format help to make FAIR data?
+> 1. Why did you choose the NetCDF format?
+> 2. Does this format help to make the data FAIR?
 >
 >> ## Solution
 >>
 >> 1. You found that NetCDF format is the standard in your research community and
 >> therefore interoperable and reusable for anyone.
->> Also, NetCDF format can contain both data and metadata.
+>> Also, the NetCDF format can contain both data and metadata.
 >>
->> 2. Therefore, yes, NetCDF format helps to have FAIR data.
+>> 2. Therefore, yes, the NetCDF format helps to make the data FAIR.
 > {: .solution}
 {: .challenge}
 
@@ -92,23 +91,23 @@ Here is a list of some common formats:
 
   - GRIB messages contain the **data** and **metadata**.
 
-> ## Discuss GRIB format
+> ## Why GRIB format
 >
-> You work with some geo-spatial data for a project in your community.
-> You choose GRIB format for the data.
+> You work with some geospatial data for a project in your community.
+> You choose the GRIB format for the data.
 > Your colleague asks:
 >
-> 1. why did you choose GRIB format?
-> 2. does this format help to make FAIR data?
+> 1. Why did you choose the GRIB format?
+> 2. Does this format help to make the data FAIR?
 >
 >> ## Solution
 >>
 >> 1. You found that GRIB format is the standard in your research community and
 >> therefore interoperable and reusable for anyone.
 >> GRIB format is independent of any particular machine representation.
->> Also, GRIB format can contain both data and metadata.
+>> Also, the GRIB format can contain both data and metadata.
 >>
->> 2. Therefore, yes, GRIB format helps to have FAIR data.
+>> 2. Therefore, yes, the GRIB format helps to make the data FAIR.
 > {: .solution}
 {: .challenge}
 
@@ -127,23 +126,23 @@ Here is a list of some common formats:
   - GeoTIFF format stores a **broad range of georeferencing information**, catering to geographic
   as well as projected coordinate systems.
 
-> ## Discuss GeoTIFF format
+> ## Why GeoTIFF format
 >
-> You work with some geo-spatial data for a project in your community.
-> You choose GeoTIFF format for the data.
+> You work with some geospatial data for a project in your community.
+> You choose the GeoTIFF format for the data.
 > Your colleague asks:
 >
-> 1. why did you choose GeoTIFF format?
-> 2. does this format help to make FAIR data?
+> 1. Why did you choose the GeoTIFF format?
+> 2. Does this format help to make the data FAIR?
 >
 >> ## Solution
 >>
 >> 1. You found that GeoTIFF format is the standard in your research community and
 >> therefore interoperable and reusable for anyone.
 >> GeoTIFF format is independent of computer’s architecture, operating system, and graphics hardware.
->> Also, GeoTIFF format can contain both data and geographic information.
+>> Also, the GeoTIFF format can contain both data and geographic information.
 >>
->> 2. Therefore, yes, GeoTIFF format helps to have FAIR data.
+>> 2. Therefore, yes, the GeoTIFF format helps to make the data FAIR.
 > {: .solution}
 {: .challenge}
 
@@ -163,14 +162,14 @@ developed by the National Center for Supercomputing Applications (NCSA):
   - An HDF5 structure is **self-describing**, allowing an application to interpret
   the structure and contents of a file without any outside information.
 
-> ## Discuss a HDF5 format
+> ## Why HDF5 format
 >
-> You work with some geo-spatial data for a project in your community.
-> You choose HDF5 format for the data.
+> You work with some geospatial data for a project in your community.
+> You choose the HDF5 format for the data.
 > Your colleague asks:
 >
-> 1. why did you choose HDF5 format?
-> 2. does this format help to make FAIR data?
+> 1. Why did you choose the HDF5 format?
+> 2. Does this format help to make the data FAIR?
 >
 >> ## Solution
 >>
@@ -179,7 +178,7 @@ developed by the National Center for Supercomputing Applications (NCSA):
 >> HDF5 is a general-purpose, machine-independent format.
 >> Also, HDF5 format can contain both data and metadata.
 >>
->> 2. Therefore, yes, HDF5 format helps to have FAIR data.
+>> 2. Therefore, yes, HDF5 format helps to make the data FAIR.
 > {: .solution}
 {: .challenge}
 
@@ -189,28 +188,74 @@ developed by the National Center for Supercomputing Applications (NCSA):
 > [SHP](https://en.wikipedia.org/wiki/Shapefile)(shapefiles) for vector data,
 > [DBF](https://en.wikipedia.org/wiki/.dbf)(database file), and
 > [NetCDF ZARR Data](https://www.unidata.ucar.edu/blogs/developer/en/entry/netcdf-zarr-data-model-specification), etc.
-> Do you use other formats for a project in your community?
-{: .discussion}
-
-## Different formats for different purposes
-
-There are different file formats to use for each purpose: data collection/ processing/analysis, reuse, and preservation
+{: .callout}
 
 ## Different formats for different types
 
-what file formats to use for each type: geospatial, tabular, storyline, documentation and paper, textual, video/audio, image/figure
+There are several data types like geospatial, tabular, storyline, documentation and paper,
+textual, video/audio, and image/figure.
+Recommended formats for different types:
 
-> ## non/proprietary format
+- Geospatial data: [NetCDF](https://www.unidata.ucar.edu/software/netcdf/docs/netcdf_data_model.html)
+- Tabular data: [SQLite](https://www.sqlite.org/fileformat.html)
+- Textual data: [Markdown](https://daringfireball.net/projects/markdown/)
+- Image data: [TIFF 6.0 uncompressed](https://www.adobe.io/content/dam/udp/en/open/standards/tiff/TIFF6.pdf)
+- Audio data: [Lossless Audio Codec (FLAC)](https://xiph.org/flac/)
+- Video data: [MPEG-4](https://en.wikipedia.org/wiki/MPEG-4)
+- Documentation: [Microsoft Word](https://en.wikipedia.org/wiki/Microsoft_Word) or [PDF](https://www.iso.org/standard/63534.html)
+- Papers & Articles: [LaTeX](https://www.latex-project.org/)
+- Storyline Definitions: [JSON](https://www.json.org/json-en.html)
+
+> ## Other data types
 >
-> FIX ME
+> Have a look at the list of the recommended formats for different types (mentioned above)
+> and pick a data type.
+>
+> - What are the other data formats for the type that you selected?
+> - Which of those formats are common in your community?
+{: .discussion}
+
+> ## Data Management Plan
+>
+> Data Management Plan (DMP) covers how data can be stored, described and reused.
 {: .callout}
 
- > ## Choose a file format
+
+## Different formats for different purposes
+
+In the previous sections, we learned that different file formats have different properties.
+The purpose of a file should help determine which file format to choose.
+It is good to plan in the beginning of your project, what file formats to use for each purpose:
+
+- data collection / processing / analysis,
+- reuse: the longer you want to use the data, the more you have to use open, standard and
+well-documented file formats to avoid obsolescence.
+- preservation: many journals, archives and data repositories require that data are uploaded in certain file formats.
+Therefore, you may have to keep some data files in multiple formats.
+
+> ## Non/proprietary format
 >
-> this study uses both global (CMIP3) and regional (CORDEX?) and reanalysis data, then runs a crop model to investigate difference in future crop yields. We could make some exercises like: If this author wanted to publish their data,
+> File formats may be either proprietary or non-proprietary(open or free):
 >
-> 1. What is the format of the data?
-> 2. Do you know why the data is in that format?
+>- The proprietary format is owned by a company, or organization or individual.
+>  Their specifications are usually not publicly available and the risk of obsolescence is high.
+>  If you want to store data in a proprietary format for a reasonable time, consider including a readme.txt file
+>  that documents the name and version of the software used to generate the file, as well as
+>  the information of the company that made the software.
+>
+>- The open format is a file format that is published and free to be used by everybody.
+{: .callout}
+
+> ## Recommendation about data format
+>
+> Recently, researchers evaluated the utility of dynamical downscaling in agricultural impacts projections,
+> see [their publication](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4066535/).
+> They used climate data from a global climate model like CMIP3 and some
+> [regional climate models](https://www.pnas.org/content/pnas/suppl/2014/05/28/1314787111.DCSupplemental/pnas.201314787SI.pdf).
+> A bias correction and spatial downscaling algorithm were applied on climate data.
+> Crop yield were simulated with a version of the DSSAT crop model (pDSSAT).
+>
+> Assume that the authors want to publish their data. What suggestions would you give the authors for data format?
 >
 {: .discussion}
 
