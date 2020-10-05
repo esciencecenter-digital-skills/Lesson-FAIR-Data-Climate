@@ -18,18 +18,18 @@ keypoints:
 - "FAIRification is an ongoing effort accross many different fields"
 ---
 
-## What is FAIR
+## What is FAIR?
 
-FAIR is an acronym for Findable, Accessible, Interoperable, Reusable. The FAIR
-principles for research data, originally published in a [2016 Nature
+FAIR is an acronym for Findable, Accessible, Interoperable, Reusable.
+The FAIR principles for research data, originally published in a [2016 Nature
 paper](https://doi.org/10.1038/sdata.2016.18), are intended as "a guideline for
 those wishing to enhance the reusability of their data holdings." This guideline
 has subsequently been endorsed by working groups, funding bodies and
 institutions.
 
 The FAIR principles have a relatively strong focus on "machine-actionability".
-That means that the data should not only be findable, accessible etc. by humans,
-but also by computers. This is relevant especially for data discovery and also
+That means that the data should not only be *fair* for humans,
+but also for computers. This is relevant especially for data discovery and also
 to facilitate working with the data.
 
 ![FAIR principles illustration by Scriberia](../fig/FAIRPrinciples.jpg) *This
@@ -38,14 +38,14 @@ CC-BY licence. Source: <https://doi.org/10.5281/zenodo.3695300>*
 
 > ## FAIR is not open
 >
-> Some data cannot be openly shared for example due to privacy considerations.
+> Some data cannot be openly shared for example because of privacy considerations.
 > For such situations the following guideline from the EU H2020 programme may be followed:
 >
 > *"As open as possible, as closed as necessary."*
 >
 {: .callout}
 
-## Why FAIR
+## Why FAIR?
 
 The original authors of the FAIR principles had a strong focus on enhancing
 reusability of data. This ambition is embedded in a broader view on knowledge
@@ -58,11 +58,12 @@ all aspects of the research process. This is visualized in the image below.
 image was created by Scriberia for The Turing Way community and is used under a
 CC-BY licence. Source: <https://doi.org/10.5281/zenodo.3695300>*
 
-> ## What's in it for you
+> ## What's in it for you?
 >
 > Many funders nowadays require data management plans in which the researchers
-> describe their adherence to the FAIR principles. But of course, if we are
-> going to spend time and effort, we prefer to find some intrinsic motivation.
+> describe their adherence to the FAIR principles. A great step forward, but if 
+> we are going to spend the time and effort, we prefer to find some intrinsic 
+> motivation.
 >
 > Have a look at the original [Nature paper]() on FAIR data, the [GO-FAIR
 > living document](https://www.go-fair.org/fair-principles/), and the Danish
@@ -79,7 +80,7 @@ only in 2016, a comprehensive set of specific requirements for FAIR data is
 lacking for most fields.
 
 In this tutorial, we will therefore interpret "FAIRness" as a continous scale
-(FAIR versus more FAIR) rather than a binary classification (FAIR vs not FAIR).
+(FAIR vs. more FAIR) rather than a binary classification (FAIR vs. not FAIR).
 Some steps can already be taken today, whereas other steps require the
 development of standards across a scientific domain. We will aim to identify
 those quick wins and to facilitate the discussion on more involved developments.
