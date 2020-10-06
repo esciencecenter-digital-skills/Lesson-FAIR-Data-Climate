@@ -16,6 +16,7 @@ keypoints:
   Interoperable, and Reusable"
 - "FAIR data enhance impact, reuse, and transparancy of research"
 - "FAIRification is an ongoing effort accross many different fields"
+FAIR principles are a set of guiding principles, not rules or standards. 
 ---
 
 ## What is FAIR?
@@ -29,8 +30,7 @@ institutions.
 
 The FAIR principles have a relatively strong focus on "machine-actionability".
 That means that the data should not only be *fair* for humans,
-but also for computers. This is relevant especially for data discovery and also
-to facilitate working with the data.
+but also for computers. This is especially relevant for data discovery and working with data.
 
 ![FAIR principles illustration by Scriberia](../fig/FAIRPrinciples.jpg) *This
 image was created by Scriberia for The Turing Way community and is used under a
@@ -80,9 +80,9 @@ only in 2016, a comprehensive set of specific requirements for FAIR data is
 lacking for most fields.
 
 In this tutorial, we will therefore interpret "FAIRness" as a continous scale
-(FAIR vs. more FAIR) rather than a binary classification (FAIR vs. not FAIR).
+(less FAIR vs. more FAIR) rather than a binary classification (FAIR vs. not FAIR).
 Some steps can already be taken today, whereas other steps require the
-development of standards across a scientific domain. We will aim to identify
+development of standards across a scientific domain, or even changes to the funding model of projects. We will aim to identify
 those quick wins and to facilitate the discussion on more involved developments.
 
 > ## Select your case study for the tutorial
@@ -112,4 +112,3 @@ those quick wins and to facilitate the discussion on more involved developments.
 - [EU H2020 guidelines on FAIR data management (PDF)](https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf)
 
 {% include links.md %}
-
