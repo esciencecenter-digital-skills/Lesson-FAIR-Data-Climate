@@ -9,40 +9,73 @@ questions:
 objectives:
 - "Obtain a PID for your data"
 keypoints:
-- "Ensure reproducability by assigning persistent identifiers to your processed data."
-- "Ensure reuse by adding a persistent identifiers to your raw data."
+- "Promote reproducability by assigning persistent identifiers to your processed data."
+- "Promote reuse by adding a persistent identifiers to your raw data."
+- "If your data do not have a PID, they will not be FAIR!"
 ---
 
 What is a persistent identifier?
 --------------------------------
 
-Persistent identifiers are important to make the data **Findable**
+Persistent identifiers (PIDs) are required to address the *F* in FAIR. They are used to identify digital resources using a unique and standardized label. PIDs are persistent, meaning that we will be able to find the data long into the future, even if the actual location (e.g. URL) or name of the resource changes. Well known PIDs are the [digital object identifiers](https://en.wikipedia.org/wiki/Digital_object_identifier) (DOI) and the [Handle System](https://en.wikipedia.org/wiki/Handle_System). In fact, a DOI is a type of Handle System handle.
 
-General info on DOIs and citing data (example ERA interim paper no. Citations; Dee et al)
+Assigning a PID to your data makes sense. It will make the data easier to find, promotes reproducibility and reuse, makes it possible to track the impact, and enables long-term availability of the data. Remember that we said that data should be *fair* to computers? By assigning PIDs to our datasets (and publications), large networks of linked data and information can be created automatically.
+
+> ## Anatomy of a DOI
+> A DOI takes the form of a string with two parts, a prefix and a suffix, divided by a slash. Usually, a prefix corresponds to the publisher, and the suffix to the resource.
+> ![Anatomy of a DOI](../fig/doi_anatomy.png)
+{: .callout}
+
+> ## Exercise
+> - Where does the above linked doi point to?
+> - Do you think this DOI will still be valid in 50 years?
+> - Who is responsible to update the DOI if you get a dead link?
+> - What do you think should happen if the journal ceases to exist?
+{: .challenge}
 
 Which data need a PID?
 ----------------------
+
+Typically this can be broken down into two types of data:
+- Raw data
+- Processed data
+
+Making raw data available promotes reusability of the data, whereas uploading processed data prmotes reproducibility.
+
+Making raw data available is key to the success of large MIP projects in climatology.
 
 CMIP5 and CMIP6 (lessons learned; version/concept licence)
 
 Other (MIP) projects
 
-Which datasets should we add an identifier to be FAIR?
 
 How do you get a PID?
 ---------------------
 
-Concept DOI: reserve a doi first, so you can add the doi to the dataset.
+Getting a PID (usually a DOI) for your data is as easy as publishing your data to a data archive. After the upload, a PID is automatically assigned. Note that just getting a PID is not all for making the data FAIR. Without metadata it will still be difficult to find the data. That's why many data archives make it easy to metadata, such as a list of authors, related projects, linked publications or other related items.
 
-On zenodo, you can link to a project as a whole (general identifier) or to a specific version, with a version identifier.
-This will make sure that the old versions are still accessible, but that it is clear which version they belong to.
-This gives you a way to version your data.
+Below you will find a list of resources to find a trusted or recommended repository.
+
+- [OpenAIRE](https://explore.openaire.eu/participate/deposit/learn-how):
+Find the appropriate repository to deposit your research products of any type (publication, data, software, other) or to include in your data management plan. Search and browse for OpenAIRE compliant repositories registered in OpenDOAR and re3data. OpenAIRE is a EC funded network of Open Access repositories, archives and journals that support Open Access policies.
+
+- [Zenodo](https://zenodo.org):
+Zenodo is a general-purpose open-access repository developed under the European OpenAIRE program and operated by CERN. It allows researchers to deposit data sets, research software, reports, and any other research related digital artifacts
+General purpose open-access repository developed
+
+- [FAIRsharing catalogue of databases](https://fairsharing.org/databases/):
+FAIRsharing is a web-based, searchable portal of three interlinked registries, containing both in-house and crowdsourced manually curated descriptions of standards, databases and data policies, combined with an integrated view across all three types of resource.
+
+- [Registry of Research Data Repositories (re3data.org)](https://www.re3data.org/):
+re3data.org is an Open Science tool that offers researchers, funding organizations, libraries and publishers an overview of existing international repositories for research data.
+
+- [European Research Council (ERC) Open Access](https://erc.europa.eu/funding-and-grants/managing-project/open-access):
+ERC curated webpage on policies on open access and data storage, including a list of recommended repositories.
 
 
-
-Further reading:
-- https://www.go-fair.org/fair-principles/f1-meta-data-assigned-globally-unique-persistent-identifiers/
-- https://librarycarpentry.org/lc-fair-research/02-findable/index.html
+## Further Reading
+- <https://www.go-fair.org/fair-principles/f1-meta-data-assigned-globally-unique-persistent-identifiers/>
+- <https://librarycarpentry.org/lc-fair-research/02-findable/index.html>
 
 
 {% include links.md %}
