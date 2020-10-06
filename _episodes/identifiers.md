@@ -36,7 +36,7 @@ Assigning a PID to your data makes sense. It will make the data easier to find, 
 Which data need a PID?
 ----------------------
 
-In principle, all data need a PID, but practically, this can be broken down into two types of data:
+In principle, all data (publications, software, observations, model output, figures, etc.) need a PID, but practically, this can be broken down into two types of data:
 - Raw data
 - Processed data
 
