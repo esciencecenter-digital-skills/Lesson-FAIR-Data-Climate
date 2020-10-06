@@ -36,17 +36,16 @@ Assigning a PID to your data makes sense. It will make the data easier to find, 
 Which data need a PID?
 ----------------------
 
-Typically this can be broken down into two types of data:
+In principle, all data need a PID, but practically, this can be broken down into two types of data:
 - Raw data
 - Processed data
 
-Making raw data available promotes reusability of the data, whereas uploading processed data prmotes reproducibility.
+Making raw data available enables other researchers to re-use your data, and to develop their own models and ideas. Making the processed data available serves to promote reproducibility, and large inter-comparison studies.
 
-Making raw data available is key to the success of large MIP projects in climatology.
+If you think about it, these concepts are key to the success of large MIP projects in climatology, where many institutes and groups have made their data available to everyone.
 
-CMIP5 and CMIP6 (lessons learned; version/concept licence)
+One of the challenges is how to deal with 'dynamic data', which is also highly relevant for climatological data. How do you make PIDs for data that is continuously evolving? [For the CMIP6 project](https://datascience.codata.org/articles/10.5334/dsj-2017-030/), a pragmatic approach was taken, consisting of a global PID for the entire, evolving data superset, and specific PIDs for citing specific subsets.
 
-Other (MIP) projects
 
 
 How do you get a PID?
@@ -76,6 +75,7 @@ ERC curated webpage on policies on open access and data storage, including a lis
 ## Further Reading
 - <https://www.go-fair.org/fair-principles/f1-meta-data-assigned-globally-unique-persistent-identifiers/>
 - <https://librarycarpentry.org/lc-fair-research/02-findable/index.html>
+- <https://datascience.codata.org/articles/10.5334/dsj-2017-030/>
 
 
 {% include links.md %}
