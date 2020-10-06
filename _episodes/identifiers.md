@@ -27,7 +27,7 @@ Assigning a PID to your data makes sense. It will make the data easier to find, 
 {: .callout}
 
 > ## Exercise
-> - Where does the above linked doi point to?
+> - Where does the above linked DOI point to?
 > - Do you think this DOI will still be valid in 50 years?
 > - Who is responsible to update the DOI if you get a dead link?
 > - What do you think should happen if the journal ceases to exist?
@@ -46,7 +46,11 @@ If you think about it, these concepts are key to the success of large MIP projec
 
 One of the challenges is how to deal with 'dynamic data', which is also highly relevant for climatological data. How do you make PIDs for data that is continuously evolving? [For the CMIP6 project](https://datascience.codata.org/articles/10.5334/dsj-2017-030/), a pragmatic approach was taken, consisting of a global PID for the entire, evolving data superset, and specific PIDs for citing specific subsets.
 
-
+> ## Discussion
+> Consider your own use case:
+> - Does the data have a DOI?
+> - Why/Why not?
+{: .challenge}
 
 How do you get a PID?
 ---------------------
