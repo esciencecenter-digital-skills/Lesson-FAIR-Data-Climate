@@ -3,27 +3,28 @@ title: "Access to the data"
 teaching: 0
 exercises: 0
 questions:
-- "Key question (FIXME)"
+- "What is meant by 'accessibility'?"
+- "What are relevant data repositories in climate science?"
 objectives:
-- "First learning objective. (FIXME)"
+- "Identify suitable repositories to make your research data acessible."
+- "Plan access to the data in a data management plan."
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "Accessible does not mean open without constraint."
+- "Data preservation"
+- "EU-funded projects are expected to make generated data accessible to the public."
 ---
 
 
-## What is Accessible 
+## What is access to data?
 
-Accessible data objects can be obtained by humans and machines upon appropriate authorisation and through
-a well-defined and universally implementable protocol. In other words, anyone with a computer and an Internet
-connection should be able to access at least the metadata. It is important to emphasise that Accessible in
-FAIR does not mean Open without constraint. Accessibility means that the human or machine is provided -
-through metadata - with the precise conditions by which the data are accessible and that the mechanisms
-and technical protocols for data access are implemented such that the data and/or metadata can be accessed
-and used at scale, by machines, across the web.
+Accessibility addresses the *A* in the FAIR principles. Once the user finds the required data, she/he needs to know how can they be accessed, possibly including authentication and authorisation. Accessible data objects can be obtained by humans and machines upon appropriate authorisation and through a well-defined and universally implementable protocol. In other words, anyone with a computer and an internet connection should be able to access at least the metadata.
 
-From the FAIR principles:
-**Accessible**
-Once the user finds the required data, she/he needs to know how can they be accessed, possibly including authentication and authorisation.
+> ## Accessible does not mean open without constraint
+> Accessibility means that the human or machine is provided - through metadata - with the precise conditions by which the data are accessible and that the mechanisms and technical protocols for data access are implemented such that the data and/or metadata can be accessed and used at scale, by machines, across the web.
+{: .callout}
+
+
+
 
 A1. (Meta)data are retrievable by their identifier using a standardised communications protocol
 
@@ -33,9 +34,10 @@ A1.2 The protocol allows for an authentication and authorisation procedure, wher
 
 A2. Metadata are accessible, even when the data are no longer available
 
+How long should data be acessible
+
 
 ## How to access data
-
 
 - ESGF, first choice for any climate scientist?
 
@@ -49,22 +51,22 @@ A2. Metadata are accessible, even when the data are no longer available
 - Website of a dataset
 
     Although FAIRness in climate science is advancing and some clearly accessible repositories exist, it is still also common practice to only make a dataset accessible via the project website. Because projects do not last for ever, some of these websites are not maintained, resulting in inaccessible datasets.
-    
 
-Q:
-For the following three datasets, find out how you can access them:
- - ?
- - ?
- - ?
 
-Question:
-Discuss for every of the above listed repositories its...
- - Accessibility
- - Openness
+> ## Exercise
+> For the following three datasets, find out how you can access them:
+> - ?
+> - ?
+> - ?
+{: .challenge}
 
+> ## Discussion
+> Often accounts are needed to access CMIP data on ESGF.
+> - Why do you think this is?
+> - What are the advantages/disadvantages of this approach?
+{: .challenge}
 
 ## I have created data, how do I make it accessible
 
-Depends on your 
 
 {% include links.md %}
