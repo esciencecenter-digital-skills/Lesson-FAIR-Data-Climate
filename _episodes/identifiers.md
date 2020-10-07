@@ -19,7 +19,7 @@ What is a persistent identifier?
 
 Persistent identifiers (PIDs) are required to address the *F* in FAIR. They are used to identify digital resources using a unique and standardized label. PIDs are persistent, meaning that we will be able to find the data long into the future, even if the actual location (e.g. URL) or name of the resource changes. Well known PIDs are the [digital object identifiers](https://en.wikipedia.org/wiki/Digital_object_identifier) (DOI) and the [Handle System](https://en.wikipedia.org/wiki/Handle_System). In fact, a DOI is a type of Handle System handle.
 
-Assigning a PID to your data makes sense. It will make the data easier to find, promotes reproducibility and reuse, makes it possible to track the impact, and enables long-term availability of the data. Remember that we said that data should be *FAIR* to computers? By assigning PIDs to our datasets (and publications), large networks of linked data and information can be created automatically.
+Assigning a PID to your data makes sense. It will make the data easier to find, promotes reproducibility and reuse, makes it possible to track the impact, and enables long-term availability of the data.
 
 > ## Anatomy of a DOI
 > A DOI takes the form of a string with two parts, a prefix and a suffix, divided by a slash. Usually, a prefix corresponds to the publisher, and the suffix to the resource.
@@ -72,6 +72,13 @@ re3data.org is an Open Science tool that offers researchers, funding organizatio
 
 - [European Research Council (ERC) Open Access](https://erc.europa.eu/funding-and-grants/managing-project/open-access):
 ERC curated webpage on policies on open access and data storage, including a list of recommended repositories.
+
+Linked data
+-----------
+
+Remember that we said that data should be *fair* to computers? By assigning PIDs to our datasets (and publications), large networks of linked data and information can be created automatically.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9G4EMJCwCw4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Further Reading
