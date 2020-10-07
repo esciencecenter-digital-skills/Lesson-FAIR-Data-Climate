@@ -78,7 +78,7 @@ Linked data
 
 Remember that we said that data should be *fair* to computers? By assigning PIDs to our datasets (and publications), large networks of linked data and information can be created automatically.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9G4EMJCwCw4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9G4EMJCwCw4?start=45" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Further Reading
