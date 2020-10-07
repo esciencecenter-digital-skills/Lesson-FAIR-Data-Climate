@@ -32,16 +32,20 @@ questions do they address? Was there any kind of quality assurrence?
 Documentation can take many forms: a data management plan, papers published,
 (jupyter) notebooks, lab journals, provenance information, etc. It is a good
 idea to bundle these with the data when you publish the data, so that people
-that find your data will not have to search for it elsewhere. Most data
+that find your data will not have to search for it elsewhere, and that access to documentation is guaranteed. Most data
 repositories have a 'description' field, which is a suitable place to provide
 any information that is not covered by the other metadata fields.
 
 > ## Grouping related files with Zenodo communities
 > Data documentation in your project may be scattered over many files of
-> different types. To bundle this information, Zenodo provides 'communities'.
-> You can upload all your files to Zenodo and add them to a community. You can
-> also track versions. Each file gets its own DOI. So you could e.g. cite your
-> data management plan in the description field of your dataset.
+> different types. To bundle this information, Zenodo allows you to upload
+> a set of related files (hundreds if needed) as a single dataset.
+> 
+> In addition, Zenodo provides 'communities'. You can upload all your datasets
+> to Zenodo and add them to a community, thus keeping track of all relevant
+> data for an entire project. You can also track versions. Each dataset
+> gets its own DOI. So you could e.g. cite your data management plan
+> in the description field of your dataset.
 {: .callout}
 
 ## What is the difference between metadata and documentation?
@@ -57,7 +61,7 @@ machine readability.
 
 > ## Checking data documentation
 >
-> Visit a data repository of your choosing (e.g. hydroshare, 4TU, Zenodo, ...).
+> Visit a data repository of your choosing (e.g. HydroShare, 4TU.ResearchData, Zenodo, ...).
 > Select one or more datasets that you find interesting, and answer the
 > following questions:
 >
