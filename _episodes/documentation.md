@@ -88,6 +88,8 @@ machine readability.
 >
 > You may also write down some more technical aspects of the data, such as
 > variable names, units, grids, creation date, software versions, etc.
+>
+> Limit your description to a single page (max).
 {: .challenge}
 
 ## Further reading
