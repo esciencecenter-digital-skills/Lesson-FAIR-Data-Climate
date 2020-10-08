@@ -21,21 +21,42 @@ keypoints:
 
 A [file format](https://en.wikipedia.org/wiki/File_format) is the structure of a file.
 It determines how the data within the file is organized.
-A File format is also called a file extension.
 Files are usually named as `filename.format`.
 For example, climate.jpeg is a file named climate with [jpeg](https://en.wikipedia.org/wiki/JPEG) format.
 You might know that `jpeg` is a commonly used format for digital images.
-Therefore, the file `climate` is an image.
+Therefore, the file `climate` is probably an image.
+
+Each file type like images, video, and text can be stored in several formats.
+For example, `climate.jpeg`, `climate.png`, and `climate.gif`.
+All file formats are used to store image data, but they have differences in
+compression, available colors, resulting filesize, etc
+(for more information [see](https://fixthephoto.com/tech-tips/difference-between-jpeg-and-png.html)).
+When deciding which one to use, it’s important to note the advantages and disadvantages of each.
+
+Also, formats may be dependent on particular software.
+When data is stored from a software program, it is usually saved in that program’s standard file format.
+One example is creating tabular data using spreadsheet software.
+Tabular data have specific properties that are better supported by the spreadsheet software than a word processor.
+
+> ## no extension or multiple extensions!
+>
+> In [UNIX-like](https://en.wikipedia.org/wiki/UNIX-like) operating systems, a file can have no extensions,
+> or more than one extension.
+> For example, in `filename.tar.gz`, the `.tar` indicates that the file is a tar archive of one or more files,
+> and the `.gz` indicates that the tar archive file is compressed with [gzip](https://en.wikipedia.org/wiki/Gzip).
+> Also, programs reading files usually ignore the format; it is mostly intended for the human user.
+> In Windows, a file should have at least one extension.
+{: .callout}
 
 ## Common file format in climate-related domains
 
-In climate-related domains e.g. weather and climate science, Earth observation science, hydrology,
+In climate-related domains e.g. weather and climate science, earth observation science, hydrology,
 data can be in many types and for different purposes.
-In this section, we will learn about the common formats of data.
+In this section, we will explore some common data formats.
 
 > ## Common file format for geospatial data in your community/research team
 >
-> You work with some data for a project in your community.
+> Here are some questions about the use case you chose in the introduction.
 >
 > 1. What is the format of the data?
 > 2. Do you know why the data is in that format?
@@ -83,13 +104,15 @@ Here is a list of some common formats:
 
 - [GRIB](https://www.wmo.int/pages/prog/www/DPS/FM92-GRIB2-11-2003.pdf):
   GRIB stands for general regularly-distributed information in binary.
-  It is **commonly used** by the [World Meteorological Organization](https://public.wmo.int/en)(WMO) for weather model data.
+  It is **commonly used** by the [World Meteorological Organization](https://public.wmo.int/en) (WMO) for weather model data.
 
-  - GRIB coded data consist of a continuous bit-stream made of a sequence of
-  [octets](https://en.wikipedia.org/wiki/Octet_(computing)).
-  Thus, the representation of the data is **independent of** any particular machine representation.
+  - The representation of the data in the GRIB format is **independent of** any particular machine representation.
 
   - GRIB messages contain the **data** and **metadata**.
+
+  - GRIB is used operationally worldwide by most meteorological centers, for Numerical Weather Prediction output.
+  Some of the second-generation GRIB are used in Eumetcast of Meteosat Second Generation.
+  Another example is the North American Mesoscale model.
 
 > ## Why GRIB format
 >
@@ -113,7 +136,7 @@ Here is a list of some common formats:
 
 - [GeoTIFF](https://www.geospatialworld.net/article/geotiff-a-standard-image-file-format-for-gis-applications/):
   GeoTIFF is a standard image file format to describe and store raster image data with geographic information.
-  So it can be used by  Geographic Information System (GIS) applications.
+  So it can be used by Geographic Information System (GIS) applications.
 
   - GeoTIFF format is suitable for a **wide range of applications worldwide**.
   For example, satellite imaging systems, scanned aerial photography, scanned maps,
@@ -125,6 +148,9 @@ Here is a list of some common formats:
 
   - GeoTIFF format stores a **broad range of georeferencing information**, catering to geographic
   as well as projected coordinate systems.
+
+  - As an example, GeoTIFF 1.1 is an approved NASA Earth Science Data Systems standard
+  (see [Standards and Practices](https://earthdata.nasa.gov/esdis/eso/standards-and-references)).
 
 > ## Why GeoTIFF format
 >
@@ -146,7 +172,7 @@ Here is a list of some common formats:
 > {: .solution}
 {: .challenge}
 
-- [HDF5](https://support.hdfgroup.org/HDF5/doc1.6/UG/03_Model.html):
+- [HDF5](https://www.hdfgroup.org/solutions/hdf5/):
 The Hierarchical Data Format Version 5, (HDF5) implements a model for managing and storing data,
 developed by the National Center for Supercomputing Applications (NCSA):
 ![HDF5]({{ page.root }}/fig/hdf5_data_model.png)
@@ -161,6 +187,10 @@ developed by the National Center for Supercomputing Applications (NCSA):
 
   - An HDF5 structure is **self-describing**, allowing an application to interpret
   the structure and contents of a file without any outside information.
+
+  - As an example, NASA's Earth Observing System, the primary data repository for
+  understanding global climate change, uses HDF5,
+  (for more information [see](https://www.loc.gov/preservation/digital/formats/fdd/fdd000229.shtml)).
 
 > ## Why HDF5 format
 >
@@ -194,7 +224,8 @@ developed by the National Center for Supercomputing Applications (NCSA):
 
 There are several data types like geospatial, tabular, storyline, documentation and paper,
 textual, video/audio, and image/figure.
-Recommended formats for different types:
+Some of them are more in line with the FAIR principles than some others.
+Here are some recommended formats for different types:
 
 - Geospatial data: [NetCDF](https://www.unidata.ucar.edu/software/netcdf/docs/netcdf_data_model.html)
 - Tabular data: [SQLite](https://www.sqlite.org/fileformat.html)
@@ -225,6 +256,10 @@ Recommended formats for different types:
 
 In the previous sections, we learned that different file formats have different properties.
 The purpose of a file should help determine which file format to choose.
+Let's back to our example of creating tabular data using spreadsheet software.
+There is no guarantee that the tabular data can be used or displayed in the future.
+Because the software can become obsolete or only support a specific version of formats.
+
 It is good to plan in the beginning of your project, what file formats to use for each purpose:
 
 - data collection / processing / analysis,
@@ -248,12 +283,8 @@ Therefore, you may have to keep some data files in multiple formats.
 
 > ## Recommendation about data format
 >
-> Recently, researchers evaluated the utility of dynamical downscaling in agricultural impacts projections,
-> see [their publication](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4066535/).
-> They used climate data from a global climate model like CMIP3 and some
-> [regional climate models](https://www.pnas.org/content/pnas/suppl/2014/05/28/1314787111.DCSupplemental/pnas.201314787SI.pdf).
-> A bias correction and spatial downscaling algorithm were applied on climate data.
-> Crop yield were simulated with a version of the DSSAT crop model (pDSSAT).
+> Let's have a look at case-study that you selected in introduction of this tutorial,
+> [here]({{ page.root }}{% link _episodes/introduction.md %}).
 >
 > Assume that the authors want to publish their data. What suggestions would you give the authors for data format?
 >
