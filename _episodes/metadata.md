@@ -3,7 +3,7 @@ title: "Metadata"
 teaching: 0
 exercises: 0
 questions:
-- "What is metadata?"
+- "What are metadata?"
 - "What is an ontology (or controlled vocabulary)?"
 - "What are metadata standards?"
 - "How can I choose the appropriate metadata standard for my data?"
@@ -14,20 +14,143 @@ objectives:
 keypoints:
 - "From a FAIR perspective, metadata are more important than your data."
 - "Metadata are preferably created according to a disciplinary standard."
-- "Metadata have to be added continuously to your research data."
+- "To be FAIR, metadata must have a findable persistent identifier."
 ---
+
+## Metadata
 
 Metadata are data about data. In other words, metadata is the underlying definition or description of data.
 For example, author, date created, date modified and file size are examples of very basic metadata.
 
-Metadata can make finding and working with the data easier. Therefore, they play an important role in making your data FAIR.
+Metadata can make finding and working with the data easier. Therefore, they are essential components in making your data FAIR.
 From a FAIR perspective, metadata are more important than your data,
-because metadata would always be openly available and they link research data and publications in the
-[Internet of FAIR Data and Services](https://www.go-fair.org/resources/internet-fair-data-services/).
+because metadata would always be openly available and they link research data and publications.
+Even if the original data are not available, it is extremely useful to track people, institutions or
+publications associated with the original research.
 
 Metadata can be created manually, or by automated information processing and preferably according to a disciplinary standard.
 While data documentation is meant to be read and understood by humans, metadata are primarily meant to be processed by machines.
+There is no FAIR data without machine-actionable metadata.
 
-Metadata have to be added continuously to your research data.
+> ## FAIR principles about metadata
+>
+> Let's have a look at [FAIR principles](https://www.go-fair.org/fair-principles/).
+>
+> 1. Which principles focus on metadata?
+>
+>> ## Solution
+>>
+>> 1. Because metadata are data about data,
+>> all of the principles i.e. Findable, Accessible, Interoperable and Reusable are applied to metadata.
+>>
+> {: .solution}
+{: .challenge}
+
+## Three types of metadata
+
+We focus on three main types of metadata:
+
+- **Administrative metadata** helps manage a resource or a project and indicates when and how data was created.
+For example, project/resource owner, principal investigator, project collaborators, funder, project period, permissions, etc.
+They are usually assigned to the data before you collect or create them.
+
+- **Descriptive or citation metadata** are information about a dataset or resource and help to discover and identify data.
+For example, authors, title, abstract, keywords, persistent identifier, related publications, etc.
+
+- **Structural metadata** describes how a dataset or resource came about, but also how it is internally structured.
+For example, the unit of analysis, collection method, sampling procedure, sample size, categories, variables, etc.
+Structural metadata has to be created according to best practices in a research community and will be published together with the data.
+
+> ## Keep in mind that:
+>
+> - Descriptive and structural metadata should be added continuously throughout the project.
+> - Different types of metadata apply not only to a database, but also to individual sets of data,
+> e.g. images/plots, tables, files, etc.
+{: .callout}
+
+> ## Types of metadata for geospatial data in your community/research team
+>
+> Here are some questions about the use case you chose in the introduction of this tutorial,
+> [here]({{ page.root }}{% link _episodes/introduction.md %}).
+>
+> 1. What is the type of metadata in your use case?
+> 2. What information are described by that metadata?
+>
+{: .discussion}
+
+## Ontology (or controlled vocabulary)
+
+An ontology (or controlled vocabulary) is a standard definition of key concepts in your community/research team
+and focuses on how those concepts are related to one another.
+A controlled vocabulary is a set of terms that you have to pick from.
+Using an ontology helps:
+
+- others to understand the structure and content of your data,
+- make your data findable, interoperable and reusable.
+
+> ## A controlled vocabulary for climate and forecast data
+>
+> In climate-related domains, many variables depend on the type of surface.
+> How can you specify the surface type in the metadata?
+>
+>> ## Solution
+>>
+>> Climate and Forecast metadata ([CF conventions](http://cfconventions.org/))
+>> maintains a vocabulary specifically for specifying surface and area types.
+>> The vocabulary is available on the CF site as the
+[Area Type Table](http://cfconventions.org/Data/area-type-table/current/build/area-type-table.html).
+> {: .solution}
+{: .challenge}
+
+## Metadata standards (or conventions)
+
+A metadata standard (or convention) is a subject-specific guide to your data.
+Rules on what content must be included, what syntax must be used, or a controlled vocabulary
+are included in a metadata standard.
+The quality of your metadata has a huge impact on the reusability of your research data.
+It is best practices to use metadata standard and/or an ontology commonly used in your community/research team.
+
+Some of the recognized metadata standards for climate-related domains are:
+
+- Climate and Forecast metadata ([CF conventions](http://cfconventions.org/))
+- World Meteorological Organization Core Metadata Profile ([WMO-CMP](https://www.wmo.int/pages/prog/www/WIS/metadata_en.html))
+- Generic Earth Observation Metadata Standard ([GEOMS](https://avdc.gsfc.nasa.gov/index.php?site=1925698559))
+- Cooperative Ocean-Atmosphere Research Data Service Conventions ([COARDS](https://ferret.pmel.noaa.gov/Ferret/documentation/coards-netcdf-conventions))
+- Water Markup Language ([WaterML](https://www.ogc.org/standards/waterml))
+- Shoreline Metadata Profile of the Content Standards for Digital Geospatial Metadata ([SMP-CSDGM](https://www.fgdc.gov/standards/projects/FGDC-standards-projects/metadata/shoreline-metadata/))
+
+> ## A recognized metadata convention for climate data
+>
+> Let's do a search for the keyword `climate` in [FAIR satndards](https://fairsharing.org/standards/).
+>
+> 1. What metadata convention did you find?
+> 2. Which file format does support the implementation of the metadata?
+> 3. What are other domains that use this convention?
+>
+>> ## Solution
+>>
+>> 1. Climate and Forecast metadata ([CF conventions](http://cfconventions.org/))
+>> 2. NetCDF
+>> 3. Atmospheric science, earth science, natural science, and oceanography
+> {: .solution}
+{: .challenge}
+
+> ## no/incomplete metadata standards in your research team
+>
+> Assume that you want to use metadata describing processes that produce data.
+>
+> 1. The available standards in your research team are not specifically suited
+> for that purpose.
+> 2. There is no standard in your research team for that purpose.
+> How can you define a relevant metadata scheme?
+>
+{: .discussion}
+
+> ## Sensitive data
+>
+> You cannot openly publish the sensitive data. However, you can always publish **rich metadata** about your data.
+> Publishing metadata helps you to make clear under
+> which conditions the data can be accessed and how they may be reused.
+{: .callout}
 
 {% include links.md %}
