@@ -1,16 +1,17 @@
 ---
 title: "Access to the data"
-teaching: 0
-exercises: 0
+teaching: 10
+exercises: 15
 questions:
 - "What is meant by 'accessibility'?"
 - "What are relevant data repositories in climate science?"
+- "How to choose a data repository?"
 objectives:
 - "Identify suitable repositories to make your research data acessible."
 - "Plan access to the data in a data management plan."
 keypoints:
 - "Accessible does not mean open without constraint."
-- "Data preservation"
+- "Metadata can still be accessible, even if the data itself is not (anymore)."
 - "EU-funded projects are expected to make generated data accessible to the public."
 ---
 
@@ -29,6 +30,48 @@ Accessibility addresses the *A* in the FAIR principles. Once the user finds the 
 > ## Accessible does not mean open without constraint
 > Accessibility means that the human or machine is provided - through metadata - with the precise conditions by which the data are accessible and that the mechanisms and technical protocols for data access are implemented such that the data and/or metadata can be accessed and used at scale, by machines, across the web.
 {: .callout}
+
+
+Repositories: domain-specific versus generic
+btw: repos also relevant for other aspects of FAIR (e.g. they help to find data).
+
+
+Exercises:
+
+Stages of accessibility.
+You are asked to make data accessible. Hence,
+
+- you make a note in your paper that data can be requested by sending you an email
+- you provide the data as supplementary information to your paper
+- you upload the data to dropbox and put a shareable link in your paper
+- you upload the data to a university drive and request a DOI from the library
+- you upload the data to a generic repository such as zenodo
+- you upload the data to a domain-specific repository such as hydroshare
+
+Describe whether or not this is adhering to the FAIR principles.
+
+
+Let's examine a couple of different data repositories (maybe datasets in different repos?)
+For each of the repositories listed ..., answer the following questions:
+
+- Is this repository publicly accessible?
+- Is it free?
+- Is it proprietary?
+- Does it allow for authenthication?
+- Is there any quality control for this repository?
+- Are metadata accessible, even if the data is not?
+- How long will the data be maintained?
+- Is there any backup system in place?
+- Is it easy to find data that is stored in this repository?
+- Is it easy to download data from this repository?
+- Is it easy to upload data to this repository?
+
+Discussion: When it comes to making data accessible, there are some easy steps
+that can by applied by any researcher to their own data. Some steps, however,
+have to be developed accross a scientific domain. Particularly, the
+establishment of domain-specific data repositories. What is the status in your
+specific (sub) domain? Is/are there suitable repositories, and are they easy to
+use? Or is there still room for improvement?
 
 
 How long should data be acessible?
