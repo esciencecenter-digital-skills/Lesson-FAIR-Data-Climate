@@ -30,7 +30,7 @@ Each file type like images, video, and text can be stored in several formats.
 For example, `climate.jpeg`, `climate.png`, and `climate.gif`.
 All file formats are used to store image data, but they have differences in
 compression, available colors, resulting filesize, etc
-(for more information [see](https://fixthephoto.com/tech-tips/difference-between-jpeg-and-png.html)).
+(for more information see [this page](https://fixthephoto.com/tech-tips/difference-between-jpeg-and-png.html)).
 When deciding which one to use, it’s important to note the advantages and disadvantages of each.
 
 Also, formats may be dependent on particular software.
