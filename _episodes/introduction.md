@@ -13,10 +13,10 @@ objectives:
 
 keypoints:
 - "The FAIR principles state that data should be Findable, Accessible,
-  Interoperable, and Reusable"
-- "FAIR data enhance impact, reuse, and transparancy of research"
-- "FAIRification is an ongoing effort accross many different fields"
-FAIR principles are a set of guiding principles, not rules or standards. 
+  Interoperable, and Reusable."
+- "FAIR data enhance impact, reuse, and transparancy of research."
+- "FAIRification is an ongoing effort accross many different fields."
+- "FAIR principles are a set of guiding principles, not rules or standards." 
 ---
 
 ## What is FAIR?
