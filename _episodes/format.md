@@ -50,7 +50,7 @@ Tabular data have specific properties that are better supported by the spreadshe
 
 ## Common file format in climate-related domains
 
-In climate-related domains e.g. weather and climate science, earth observation science, hydrology,
+In climate-related domains e.g. weather and climate science, earth observation science, or hydrology,
 data can be in many types and for different purposes.
 In this section, we will explore some common data formats.
 
