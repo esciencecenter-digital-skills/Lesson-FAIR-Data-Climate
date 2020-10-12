@@ -53,7 +53,7 @@ We focus on three main types of metadata:
 For example, the project/resource owner, principal investigator, project collaborators, funder, project period, permissions, etc.
 They are usually assigned to the data before you collect or create them.
 
-- **Descriptive or citation metadata** are information about a dataset or resource and help to discover and identify data.
+- **Descriptive or citation metadata** help to discover and identify data. A very good example of these are keywords, which are often added to data or publications with the only purpose to make them more findable (i.e. with a search engine).
 For example, authors, title, abstract, keywords, persistent identifier, related publications, etc.
 
 - **Structural metadata** describes how a dataset or resource came about, but also how it is internally structured.
