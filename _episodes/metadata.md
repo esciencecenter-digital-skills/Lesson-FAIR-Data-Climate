@@ -54,7 +54,7 @@ For example, the project/resource owner, principal investigator, project collabo
 They are usually assigned to the data before you collect or create them.
 
 - **Descriptive or citation metadata** help to discover and identify data. A very good example of these are keywords, which are often added to data or publications with the only purpose to make them more findable (i.e. with a search engine).
-For example, authors, title, abstract, keywords, persistent identifier, related publications, etc.
+Other examples are the authors, title, abstract, keywords, persistent identifier, related publications, etc.
 
 - **Structural metadata** describes how a dataset or resource came about, but also how it is internally structured.
 For example, the unit of analysis, collection method, sampling procedure, sample size, categories, variables, etc.
