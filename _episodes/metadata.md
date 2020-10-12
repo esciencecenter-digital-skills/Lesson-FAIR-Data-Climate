@@ -101,7 +101,7 @@ Using an ontology:
 > {: .solution}
 {: .challenge}
 
-## Metadata standards (or conventions)
+## Metadata standards
 
 A metadata standard (or convention) is a subject-specific guide to your data.
 Rules on what content must be included, what syntax must be used, or a controlled vocabulary
