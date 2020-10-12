@@ -123,7 +123,7 @@ Some of the recognized metadata standards for climate-related domains are:
 > Let's do a search for the keyword `climate` in [FAIR standards](https://fairsharing.org/standards/).
 >
 > 1. Which metadata convention did you find?
-> 2. Which file format does support the implementation of the metadata?
+> 2. Which file formats allow you to include the metadata?
 > 3. What are other domains that use this convention?
 >
 >> ## Solution
