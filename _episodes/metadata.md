@@ -134,7 +134,7 @@ Some of the recognized metadata standards for climate-related domains are:
 > {: .solution}
 {: .challenge}
 
-> ## no/incomplete metadata standards in your research team
+> ## No/incomplete metadata standards in your research team
 >
 > Assume that you want to use metadata describing processes that produce data.
 >
