@@ -58,7 +58,7 @@ Other examples are the authors, title, abstract, keywords, persistent identifier
 
 - **Structural metadata** describe how a dataset or resource came about, but also how it is internally structured. They address the 'I' and 'R' in FAIR.
 For example, measurement units, data collection method, sampling procedure, sample size, categories, variables, etc.
-Structural metadata has to be created according to best practices in a research community and will be published together with the data.
+Structural metadata have to be created according to best practices in a research community and will be published together with the data.
 
 > ## Keep in mind that:
 >
