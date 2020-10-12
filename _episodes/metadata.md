@@ -8,7 +8,7 @@ questions:
 - "What are metadata standards?"
 - "How can I choose the appropriate metadata standard for my data?"
 objectives:
-- "Understand metadata"
+- "Understand metadata and their role in FAIR data"
 - "Recognize different types of metadata"
 - "Apply an appropriate metadata standard for your data"
 keypoints:
