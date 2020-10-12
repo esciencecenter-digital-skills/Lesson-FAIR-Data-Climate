@@ -60,7 +60,7 @@ Other examples are the authors, title, abstract, keywords, persistent identifier
 For example, measurement units, data collection method, sampling procedure, sample size, categories, variables, etc.
 Structural metadata have to be created according to best practices in a research community and will be published together with the data.
 
-> ## Keep in mind that:
+> ## Keep your metadata up-to-date!
 >
 > - Descriptive and structural metadata should be added continuously throughout the project.
 > - Different types of metadata apply not only to a database, but also to individual sets of data,
