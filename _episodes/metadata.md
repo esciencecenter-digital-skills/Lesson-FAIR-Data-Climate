@@ -10,7 +10,7 @@ questions:
 objectives:
 - "Understand metadata and their role in FAIR data"
 - "Recognize different types of metadata"
-- "Apply an appropriate metadata standard for your data"
+- "Choose an appropriate metadata standard for your data"
 keypoints:
 - "From a FAIR perspective, metadata are more important than your data."
 - "Metadata are preferably created according to a disciplinary standard."
