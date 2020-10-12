@@ -6,7 +6,6 @@ questions:
 - "What are metadata?"
 - "What is an ontology (or controlled vocabulary)?"
 - "What are metadata standards?"
-- "How can I choose the appropriate metadata standard for my data?"
 objectives:
 - "Understand metadata and their role in FAIR data"
 - "Recognize different types of metadata"
