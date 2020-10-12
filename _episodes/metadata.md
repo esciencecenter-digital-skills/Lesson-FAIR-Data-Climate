@@ -136,12 +136,10 @@ Some of the recognized metadata standards for climate-related domains are:
 
 > ## No/incomplete metadata standards in your research team
 >
-> Assume that you want to use metadata describing processes that produce data.
+> Imagine you are working in a lab, and you want to use metadata describing processes that produce data. However, the available standards in your research team are not specifically suited for that purpose. 
 >
-> 1. The available standards in your research team are not specifically suited
-> for that purpose.
-> 2. There is no standard in your research team for that purpose.
 > How can you define a relevant metadata scheme?
+> What would you do if there was no standard in your research team?
 >
 {: .discussion}
 
