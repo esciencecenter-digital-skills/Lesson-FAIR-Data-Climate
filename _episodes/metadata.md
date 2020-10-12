@@ -82,10 +82,10 @@ Structural metadata have to be created according to best practices in a research
 An ontology (or controlled vocabulary) is a standard definition of key concepts in your community/research team
 and focuses on how those concepts are related to one another.
 A controlled vocabulary is a set of terms that you have to pick from.
-Using an ontology helps:
+Using an ontology:
 
-- others to understand the structure and content of your data,
-- make your data findable, interoperable and reusable.
+1. helps others to understand the structure and content of your data,
+2. makes your data findable, interoperable and reusable.
 
 > ## A controlled vocabulary for climate and forecast data
 >
