@@ -77,7 +77,7 @@ Structural metadata have to be created according to best practices in a research
 >
 {: .discussion}
 
-## Ontology (or controlled vocabulary)
+## Ontology
 
 An ontology (or controlled vocabulary) is a standard definition of key concepts in your community/research team
 and focuses on how those concepts are related to one another.
