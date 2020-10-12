@@ -40,7 +40,7 @@ There is no FAIR data without machine-actionable metadata.
 >> ## Solution
 >>
 >> Because metadata are data about data,
->> all of the principles i.e. Findable, Accessible, Interoperable and Reusable are applied to metadata.
+>> all of the principles i.e. Findable, Accessible, Interoperable and Reusable apply to metadata.
 >>
 > {: .solution}
 {: .challenge}
