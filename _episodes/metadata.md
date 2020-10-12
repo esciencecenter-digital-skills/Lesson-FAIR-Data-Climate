@@ -1,7 +1,7 @@
 ---
 title: "Metadata"
-teaching: 0
-exercises: 0
+teaching: 15
+exercises: 15
 questions:
 - "What are metadata?"
 - "What is an ontology (or controlled vocabulary)?"
@@ -22,8 +22,8 @@ Metadata are data about data. In other words, metadata is the underlying definit
 For example, `author name`, `date created`, `date modified` and `file size` are examples of very basic metadata for a file.
 
 Metadata make finding and working with the data easier. Therefore, they are essential components in making your data FAIR.
-One could argue that metadata are more important than your data. 
-Without metadata, the data would be just numbers. 
+One could argue that metadata are more important than your data.
+Without metadata, the data would be just numbers.
 But, without the original data, the metadata can still be useful to track people, institutions or publications associated with the original research.
 From a FAIR perspective, metadata would always be openly available.
 
@@ -136,7 +136,7 @@ Some of the recognized metadata standards for climate-related domains are:
 
 > ## No/incomplete metadata standards in your research team
 >
-> Imagine you are working in a lab, and you want to use metadata describing processes that produce data. However, the available standards in your research team are not specifically suited for that purpose. 
+> Imagine you are working in a lab, and you want to use metadata describing processes that produce data. However, the available standards in your research team are not specifically suited for that purpose.
 >
 > How can you define a relevant metadata scheme?
 > What would you do if there was no standard in your research team?
