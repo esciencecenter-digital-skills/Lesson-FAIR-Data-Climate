@@ -104,7 +104,7 @@ Using an ontology:
 ## Metadata standards
 
 A metadata standard (or convention) is a subject-specific guide to your data.
-Rules on what content must be included, what syntax must be used, or a controlled vocabulary
+Rules on what content must be included, which syntax should be used, or a controlled vocabulary
 are included in a metadata standard.
 The quality of your metadata has a huge impact on the reusability of your research data.
 It is best practices to use metadata standard and/or an ontology commonly used in your community/research team.
