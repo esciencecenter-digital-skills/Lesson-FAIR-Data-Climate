@@ -22,10 +22,10 @@ Metadata are data about data. In other words, metadata is the underlying definit
 For example, `author name`, `date created`, `date modified` and `file size` are examples of very basic metadata for a file.
 
 Metadata make finding and working with the data easier. Therefore, they are essential components in making your data FAIR.
-From a FAIR perspective, metadata are more important than your data,
-because metadata would always be openly available and they link research data and publications.
-Even if the original data are not available, it is extremely useful to track people, institutions or
-publications associated with the original research.
+One could argue that metadata are more important than your data. 
+Without metadata, the data would be just numbers. 
+But, without the original data, the metadata can still be useful to track people, institutions or publications associated with the original research.
+From a FAIR perspective, metadata would always be openly available.
 
 Metadata can be created manually, or by automated information processing and preferably according to a disciplinary standard.
 While data documentation is meant to be read and understood by humans, metadata are primarily meant to be processed by machines.
