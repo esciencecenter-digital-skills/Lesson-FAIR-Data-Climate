@@ -49,7 +49,7 @@ There is no FAIR data without machine-actionable metadata.
 
 We focus on three main types of metadata:
 
-- **Administrative metadata** helps manage a resource or a project and indicates when and how data was created.
+- **Administrative metadata** helps manage a resource or a project and indicates when and how the data were created.
 For example, project/resource owner, principal investigator, project collaborators, funder, project period, permissions, etc.
 They are usually assigned to the data before you collect or create them.
 
