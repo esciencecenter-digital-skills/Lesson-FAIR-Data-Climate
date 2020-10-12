@@ -39,16 +39,102 @@ Next to large-scale general-use repositories such as [Zenodo](https://zenodo.org
 
 > ## Stages of accessibility
 >
-> You submitted a paper, and the reviewer asks you to make your data accessible. Hence,
+> You submitted a paper, and the reviewer asks you to make your data accessible. You consider your options,
 >
-> - You make a note in your paper that data can be requested by sending you an email
-> - You provide the data as supplementary information to your paper
-> - You upload the data to some cloud storage and put a shareable link in your paper
-> - You upload the data to a university drive and request a DOI from the library
-> - You upload the data to a generic repository such as zenodo
-> - You upload the data to a domain-specific repository such as [Hydroshare](https://www.hydroshare.org/)
+> 1. You make a note in your paper that data can be requested by sending you an email
+> 2. You provide the data as supplementary information to your paper
+> 3. You upload the data to some cloud storage and put a shareable link in your paper
+> 4. You upload the data to a university drive and request a DOI from the library
+> 5. You upload the data to a generic repository such as zenodo
+> 6. You upload the data to a domain-specific repository such as [Hydroshare](https://www.hydroshare.org/)
 >
-> Describe which of these are adhering to the FAIR principles.
+> Describe which of these are adhering to the [FAIR principles](https://www.go-fair.org/fair-principles/).
+>
+>> ## Solution
+>> <table style="width:50%">
+>>   <thead>
+>>     <tr>
+>>       <th></th>
+>>       <th>F1</th>
+>>       <th>F2</th>
+>>       <th>F3</th>
+>>       <th>F4</th>
+>>       <th>A1</th>
+>>       <th>A1.1</th>
+>>       <th>A1.2</th>
+>>       <th>A2</th>
+>>     </tr>
+>>   </thead>
+>>   <tbody>
+>>     <tr>
+>>       <td>1.</td>
+>>       <td>😢❌</td>
+>>       <td>😢❌</td>
+>>       <td>😢❌</td>
+>>       <td>😢❌</td>
+>>       <td>😢❌</td>
+>>       <td>😢❌</td>
+>>       <td>😢❌</td>
+>>       <td>😢❌</td>
+>>     </tr>
+>>     <tr>
+>>       <td>2.</td>
+>>       <td>🤔❓</td>
+>>       <td>🤔❓</td>
+>>       <td>😢❌</td>
+>>       <td>😢❌</td>
+>>       <td>😢❌</td>
+>>       <td>🤔❓</td>
+>>       <td>🤔❓</td>
+>>       <td>😢❌</td>
+>>     </tr>
+>>     <tr>
+>>       <td>3.</td>
+>>       <td>😢❌</td>
+>>       <td>🤔❓</td>
+>>       <td>🤔❓</td>
+>>       <td>🤔❓</td>
+>>       <td>😢❌</td>
+>>       <td>🤔❓</td>
+>>       <td>🤔❓</td>
+>>       <td>😢❌</td>
+>>     </tr>
+>>     <tr>
+>>       <td>4.</td>
+>>       <td>🥳✔</td>
+>>       <td>🤔❓</td>
+>>       <td>🤔❓</td>
+>>       <td>🤔❓</td>
+>>       <td>🥳✔</td>
+>>       <td>🥳✔</td>
+>>       <td>🥳✔</td>
+>>       <td>🤔❓</td>
+>>     </tr>
+>>     <tr>
+>>       <td>5.</td>
+>>       <td>🥳✔</td>
+>>       <td>🥳✔</td>
+>>       <td>🥳✔</td>
+>>       <td>🥳✔</td>
+>>       <td>🥳✔</td>
+>>       <td>🥳✔</td>
+>>       <td>🥳✔</td>
+>>       <td>🥳✔</td>
+>>     </tr>
+>>     <tr>
+>>       <td>6.</td>
+>>       <td>🥳✔</td>
+>>       <td>🥳✔</td>
+>>       <td>🥳✔</td>
+>>       <td>🥳✔</td>
+>>       <td>🥳✔</td>
+>>       <td>🥳✔</td>
+>>       <td>🥳✔</td>
+>>       <td>🥳✔</td>
+>>     </tr>
+>>   </tbody>
+>> </table>
+> {: .solution}
 {: .challenge}
 
 > ## Data repositories
