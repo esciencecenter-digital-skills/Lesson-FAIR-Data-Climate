@@ -21,7 +21,7 @@ keypoints:
 Metadata are data about data. In other words, metadata is the underlying definition or description of data.
 For example, `author name`, `date created`, `date modified` and `file size` are examples of very basic metadata for a file.
 
-Metadata can make finding and working with the data easier. Therefore, they are essential components in making your data FAIR.
+Metadata make finding and working with the data easier. Therefore, they are essential components in making your data FAIR.
 From a FAIR perspective, metadata are more important than your data,
 because metadata would always be openly available and they link research data and publications.
 Even if the original data are not available, it is extremely useful to track people, institutions or
