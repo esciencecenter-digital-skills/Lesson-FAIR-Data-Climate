@@ -1,7 +1,7 @@
 ---
 title: "File format"
-teaching: 0
-exercises: 0
+teaching: 15
+exercises: 20
 questions:
 - "What is a file format?"
 - "What file formats should I use?"
@@ -48,20 +48,80 @@ Tabular data have specific properties that are better supported by the spreadshe
 > In Windows, a file should have at least one extension.
 {: .callout}
 
+> ## File formats for geospatial data in your community/research team
+>
+> Here are some questions about the use case you chose in the introduction.
+>
+> 1. What is the format of the geospatial data?
+> 2. Do you know why the data is in that format?
+>
+{: .discussion}
+
+## Recommended formats for different types
+
+There are several data types like geospatial, tabular, storyline, documentation and paper,
+textual, video/audio, and image/figure.
+Some of them are more in line with the FAIR principles than some others.
+Here are some recommended formats for different types:
+
+- Geospatial data: [NetCDF](https://www.unidata.ucar.edu/software/netcdf/docs/netcdf_data_model.html)
+- Tabular data: [SQLite](https://www.sqlite.org/fileformat.html)
+- Textual data: [Markdown](https://daringfireball.net/projects/markdown/)
+- Image data: [TIFF 6.0 uncompressed](https://www.adobe.io/content/dam/udp/en/open/standards/tiff/TIFF6.pdf)
+- Audio data: [Lossless Audio Codec (FLAC)](https://xiph.org/flac/)
+- Video data: [MPEG-4](https://en.wikipedia.org/wiki/MPEG-4)
+- Documentation: [Microsoft Word](https://en.wikipedia.org/wiki/Microsoft_Word) or [PDF](https://www.iso.org/standard/63534.html)
+- Papers & Articles: [LaTeX](https://www.latex-project.org/)
+- Storyline Definitions: [JSON](https://www.json.org/json-en.html)
+
+> ## Other data types
+>
+> Have a look at the list of the recommended formats for different types (mentioned above)
+> and pick a data type.
+>
+> - What are the other data formats for the type that you selected?
+> - Which of those formats are common in your community?
+{: .discussion}
+
+> ## Data Management Plan
+>
+> Data Management Plan (DMP) covers how data can be stored, described and reused.
+{: .callout}
+
+## Different formats for different purposes
+
+In the previous sections, we learned that different file formats have different properties.
+The purpose of a file should help determine which file format to choose.
+Let's back to our example of creating tabular data using spreadsheet software.
+There is no guarantee that the tabular data can be used or displayed in the future.
+Because the software can become obsolete or only support a specific version of formats.
+
+It is good to plan in the beginning of your project, what file formats to use for each purpose:
+
+- data collection / processing / analysis,
+- reuse: the longer you want to use the data, the more you have to use open, standard and
+well-documented file formats to avoid obsolescence.
+- preservation: many journals, archives and data repositories require that data are uploaded in certain file formats.
+Therefore, you may have to keep some data files in multiple formats.
+
+> ## Non/proprietary format
+>
+> File formats may be either proprietary or non-proprietary(open or free):
+>
+>- The proprietary format is owned by a company, or organization or individual.
+>  Their specifications are usually not publicly available and the risk of obsolescence is high.
+>  If you want to store data in a proprietary format for a reasonable time, consider including a readme.txt file
+>  that documents the name and version of the software used to generate the file, as well as
+>  the information of the company that made the software.
+>
+>- The open format is a file format that is published and free to be used by everybody.
+{: .callout}
+
 ## Common file format in climate-related domains
 
 In climate-related domains e.g. weather and climate science, earth observation science, or hydrology,
 data can be in many types and for different purposes.
 In this section, we will explore some common data formats.
-
-> ## Common file format for geospatial data in your community/research team
->
-> Here are some questions about the use case you chose in the introduction.
->
-> 1. What is the format of the data?
-> 2. Do you know why the data is in that format?
->
-{: .discussion}
 
 Here is a list of some common formats:
 
@@ -218,67 +278,6 @@ developed by the National Center for Supercomputing Applications (NCSA):
 > [SHP](https://en.wikipedia.org/wiki/Shapefile)(shapefiles) for vector data,
 > [DBF](https://en.wikipedia.org/wiki/.dbf)(database file), and
 > [NetCDF ZARR Data](https://www.unidata.ucar.edu/blogs/developer/en/entry/netcdf-zarr-data-model-specification), etc.
-{: .callout}
-
-## Different formats for different types
-
-There are several data types like geospatial, tabular, storyline, documentation and paper,
-textual, video/audio, and image/figure.
-Some of them are more in line with the FAIR principles than some others.
-Here are some recommended formats for different types:
-
-- Geospatial data: [NetCDF](https://www.unidata.ucar.edu/software/netcdf/docs/netcdf_data_model.html)
-- Tabular data: [SQLite](https://www.sqlite.org/fileformat.html)
-- Textual data: [Markdown](https://daringfireball.net/projects/markdown/)
-- Image data: [TIFF 6.0 uncompressed](https://www.adobe.io/content/dam/udp/en/open/standards/tiff/TIFF6.pdf)
-- Audio data: [Lossless Audio Codec (FLAC)](https://xiph.org/flac/)
-- Video data: [MPEG-4](https://en.wikipedia.org/wiki/MPEG-4)
-- Documentation: [Microsoft Word](https://en.wikipedia.org/wiki/Microsoft_Word) or [PDF](https://www.iso.org/standard/63534.html)
-- Papers & Articles: [LaTeX](https://www.latex-project.org/)
-- Storyline Definitions: [JSON](https://www.json.org/json-en.html)
-
-> ## Other data types
->
-> Have a look at the list of the recommended formats for different types (mentioned above)
-> and pick a data type.
->
-> - What are the other data formats for the type that you selected?
-> - Which of those formats are common in your community?
-{: .discussion}
-
-> ## Data Management Plan
->
-> Data Management Plan (DMP) covers how data can be stored, described and reused.
-{: .callout}
-
-
-## Different formats for different purposes
-
-In the previous sections, we learned that different file formats have different properties.
-The purpose of a file should help determine which file format to choose.
-Let's back to our example of creating tabular data using spreadsheet software.
-There is no guarantee that the tabular data can be used or displayed in the future.
-Because the software can become obsolete or only support a specific version of formats.
-
-It is good to plan in the beginning of your project, what file formats to use for each purpose:
-
-- data collection / processing / analysis,
-- reuse: the longer you want to use the data, the more you have to use open, standard and
-well-documented file formats to avoid obsolescence.
-- preservation: many journals, archives and data repositories require that data are uploaded in certain file formats.
-Therefore, you may have to keep some data files in multiple formats.
-
-> ## Non/proprietary format
->
-> File formats may be either proprietary or non-proprietary(open or free):
->
->- The proprietary format is owned by a company, or organization or individual.
->  Their specifications are usually not publicly available and the risk of obsolescence is high.
->  If you want to store data in a proprietary format for a reasonable time, consider including a readme.txt file
->  that documents the name and version of the software used to generate the file, as well as
->  the information of the company that made the software.
->
->- The open format is a file format that is published and free to be used by everybody.
 {: .callout}
 
 > ## Recommendation about data format
