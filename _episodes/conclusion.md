@@ -3,11 +3,14 @@ title: "Conclusion"
 teaching: 0
 exercises: 0
 questions:
-- "Key question (FIXME)"
+- "How can I assess the FAIRness of my data?"
+- "What do I do now to improve the FAIRness of my data?"
 objectives:
-- "First learning objective. (FIXME)"
+- "Relate the main components of this lesson with FAIR principles."
+- "Know about available tools/resources for assessing FAIRness of your data."
+- "Understand the next steps you can take to improve FAIRness of your data."
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- ""
 ---
 FIXME
 
