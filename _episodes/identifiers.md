@@ -3,14 +3,14 @@ title: "Persistent identifiers"
 teaching: 10
 exercises: 5
 questions:
-- "What is a persistent identifier?"
+- "What is a persistent identifier (PID)?"
 - "Which data need a PID?"
 - "How do you get a PID?"
 objectives:
 - "Obtain a PID for your data"
 keypoints:
-- "Promote reproducability by assigning persistent identifiers to your processed data."
-- "Promote reuse by adding a persistent identifiers to your raw data."
+- "Promote reproducibility by assigning persistent identifiers to your processed data."
+- "Promote reuse by adding a persistent identifier to your raw data."
 - "If your data do not have a PID, they will not be FAIR!"
 ---
 
@@ -58,11 +58,10 @@ Getting a PID (usually a DOI) for your data is as easy as publishing your data t
 Below you will find a list of resources to find a trusted or recommended repository.
 
 - [OpenAIRE](https://explore.openaire.eu/participate/deposit/learn-how):
-Find the appropriate repository to deposit your research products of any type (publication, data, software, other) or to include in your data management plan. Search and browse for OpenAIRE compliant repositories registered in OpenDOAR and re3data. OpenAIRE is a EC funded network of Open Access repositories, archives and journals that support Open Access policies.
+Find the appropriate repository to deposit your research products of any type (publication, data, software, other) or to include in your data management plan. Search and browse for OpenAIRE compliant repositories registered in OpenDOAR and re3data. OpenAIRE is an EC funded network of Open Access repositories, archives and journals that support Open Access policies.
 
 - [Zenodo](https://zenodo.org):
-Zenodo is a general-purpose open-access repository developed under the European OpenAIRE program and operated by CERN. It allows researchers to deposit data sets, research software, reports, and any other research related digital artifacts
-General purpose open-access repository developed
+Zenodo is a general-purpose open-access repository developed under the European OpenAIRE program and operated by CERN. It allows researchers to deposit data sets, research software, reports, and any other research related digital artifacts.
 
 - [FAIRsharing catalogue of databases](https://fairsharing.org/databases/):
 FAIRsharing is a web-based, searchable portal of three interlinked registries, containing both in-house and crowdsourced manually curated descriptions of standards, databases and data policies, combined with an integrated view across all three types of resource.
