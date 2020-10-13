@@ -25,7 +25,7 @@ does this dataset represent, what units is it in, is it a time average, what is
 the relation between 2 datapoints (subsequent in time, distinct in space, same
 or different variable), etc. But, the documentation can also answer some
 questions about the project: why were these data collected, by whom, and what
-questions do they address? Was there any kind of quality assurrence?
+questions do they address? Was there any kind of quality assurance?
 
 ## Where to document my data?
 
@@ -40,7 +40,7 @@ any information that is not covered by the other metadata fields.
 > Data documentation in your project may be scattered over many files of
 > different types. To bundle this information, Zenodo allows you to upload
 > a set of related files (hundreds if needed) as a single dataset.
-> 
+>
 > In addition, Zenodo provides 'communities'. You can upload all your datasets
 > to Zenodo and add them to a community, thus keeping track of all relevant
 > data for an entire project. You can also track versions. Each dataset
