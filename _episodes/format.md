@@ -38,7 +38,7 @@ When data is stored from a software program, it is usually saved in that program
 One example is creating tabular data using spreadsheet software.
 Tabular data have specific properties that are better supported by the spreadsheet software than a word processor.
 
-> ## no extension or multiple extensions!
+> ## No extension or multiple extensions!
 >
 > In [UNIX-like](https://en.wikipedia.org/wiki/UNIX-like) operating systems, a file can have no extensions,
 > or more than one extension.
@@ -92,8 +92,8 @@ Here are some recommended formats for different types:
 
 In the previous sections, we learned that different file formats have different properties.
 The purpose of a file should help determine which file format to choose.
-Let's back to our example of creating tabular data using spreadsheet software.
-There is no guarantee that the tabular data can be used or displayed in the future.
+In the example of creating tabular data using spreadsheet software,
+there is no guarantee that the tabular data can be used or displayed in the future.
 Because the software can become obsolete or only support a specific version of formats.
 
 It is good to plan in the beginning of your project, what file formats to use for each purpose:
