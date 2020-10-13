@@ -117,158 +117,111 @@ Therefore, you may have to keep some data files in multiple formats.
 >- The open format is a file format that is published and free to be used by everybody.
 {: .callout}
 
-## Common file format in climate-related domains
+> ## FAIR principles
+>
+> Let's have a look at [FAIR principles](https://www.go-fair.org/fair-principles/).
+> According to the principles, how does a file format improve FAIRness of research data?
+>
+>> ## Solution
+>>
+>> - I1:(meta) data use a formal, accessible, shared, and broadly applicable language for knowledge representation.
+>> For example, if data is provided in commonly understood and preferably open formats.
+>>
+>> - R1.3: (meta)data meet domain-relevant community standards e.g. those for data formats.
+> {: .solution}
+{: .challenge}
+
+## Common file formats for geospatial data
 
 In climate-related domains e.g. weather and climate science, earth observation science, or hydrology,
 data can be in many types and for different purposes.
 In this section, we will explore some common data formats.
 
-Here is a list of some common formats:
+### [NetCDF](https://www.unidata.ucar.edu/software/netcdf/docs/netcdf_data_model.html):
 
-- [NetCDF](https://www.unidata.ucar.edu/software/netcdf/docs/netcdf_data_model.html):
-  It was originally developed for the Earth science community, but it can be used for **many kinds of data**.
-  NetCDF views the world of scientific data in the same way that a geo-scientist might:
-  ![NetCDF]({{ page.root }}/fig/netcdf-classic-uml.png)
+It was originally developed for the Earth science community, but it can be used for **many kinds of data**.
+NetCDF views the world of scientific data in the same way that a geo-scientist might:
+![NetCDF]({{ page.root }}/fig/netcdf-classic-uml.png)
 
-  - There are various quantities such as temperature or elevation
-  located at points at particular coordinates in space and time.
+- There are various quantities such as temperature or elevation
+located at points at particular coordinates in space and time.
 
-  - The quantities (here temperature or elevation) are stored as netCDF variables.
-  Variables are N-dimensional arrays of **data**, with a name.
+- The quantities (here temperature or elevation) are stored as netCDF variables.
+Variables are N-dimensional arrays of **data**, with a name.
 
-  - The coordinates information are stored as netCDF dimensions.
-  Dimensions have a length and a name.
+- The coordinates information are stored as netCDF dimensions.
+Dimensions have a length and a name.
 
-  - A scientist also wants to store supporting information or **metadata**, such as the units, or
-  some information about how the data were produced.
-  The metadata is stored as netCDF attributes that are always single values or one-dimensional arrays.
+- A scientist also wants to store supporting information or **metadata**, such as the units, or
+some information about how the data were produced.
+The metadata is stored as netCDF attributes that are always single values or one-dimensional arrays.
 
-> ## Why NetCDF format
->
-> You work with some geospatial data for a project in your community.
-> You choose the NetCDF format for the data.
-> Your colleague asks:
->
-> 1. Why did you choose the NetCDF format?
-> 2. Does this format help to make the data FAIR?
->
->> ## Solution
->>
->> 1. You found that NetCDF format is the standard in your research community and
->> therefore interoperable and reusable for anyone.
->> Also, the NetCDF format can contain both data and metadata.
->>
->> 2. Therefore, yes, the NetCDF format helps to make the data FAIR.
-> {: .solution}
-{: .challenge}
+### [GRIB](https://www.wmo.int/pages/prog/www/DPS/FM92-GRIB2-11-2003.pdf):
 
-- [GRIB](https://www.wmo.int/pages/prog/www/DPS/FM92-GRIB2-11-2003.pdf):
-  GRIB stands for general regularly-distributed information in binary.
-  It is **commonly used** by the [World Meteorological Organization](https://public.wmo.int/en) (WMO) for weather model data.
+GRIB stands for general regularly-distributed information in binary.
+It is **commonly used** by the [World Meteorological Organization](https://public.wmo.int/en) (WMO) for weather model data.
 
-  - The representation of the data in the GRIB format is **independent of** any particular machine representation.
+- The representation of the data in the GRIB format is **independent of** any particular machine representation.
 
-  - GRIB messages contain the **data** and **metadata**.
+- GRIB messages contain the **data** and **metadata**.
 
-  - GRIB is used operationally worldwide by most meteorological centers, for Numerical Weather Prediction output.
-  Some of the second-generation GRIB are used in Eumetcast of Meteosat Second Generation.
-  Another example is the North American Mesoscale model.
+- GRIB is used operationally worldwide by most meteorological centers, for Numerical Weather Prediction output.
+Some of the second-generation GRIB are used in Eumetcast of Meteosat Second Generation.
+Another example is the North American Mesoscale model.
 
-> ## Why GRIB format
->
-> You work with some geospatial data for a project in your community.
-> You choose the GRIB format for the data.
-> Your colleague asks:
->
-> 1. Why did you choose the GRIB format?
-> 2. Does this format help to make the data FAIR?
->
->> ## Solution
->>
->> 1. You found that GRIB format is the standard in your research community and
->> therefore interoperable and reusable for anyone.
->> GRIB format is independent of any particular machine representation.
->> Also, the GRIB format can contain both data and metadata.
->>
->> 2. Therefore, yes, the GRIB format helps to make the data FAIR.
-> {: .solution}
-{: .challenge}
+### [GeoTIFF](https://www.geospatialworld.net/article/geotiff-a-standard-image-file-format-for-gis-applications/):
 
-- [GeoTIFF](https://www.geospatialworld.net/article/geotiff-a-standard-image-file-format-for-gis-applications/):
-  GeoTIFF is a standard image file format to describe and store raster image data with geographic information.
-  So it can be used by Geographic Information System (GIS) applications.
+GeoTIFF is a standard image file format to describe and store raster image data with geographic information.
+So it can be used by Geographic Information System (GIS) applications.
 
-  - GeoTIFF format is suitable for a **wide range of applications worldwide**.
-  For example, satellite imaging systems, scanned aerial photography, scanned maps,
-  digital elevation models, or as a result of geographic analyses.
+- GeoTIFF format is suitable for a **wide range of applications worldwide**.
+For example, satellite imaging systems, scanned aerial photography, scanned maps,
+digital elevation models, or as a result of geographic analyses.
 
-  - It is **independent** of a computer’s architecture, operating system, and graphics hardware.
+- It is **independent** of a computer’s architecture, operating system, and graphics hardware.
 
-  - GeoTIFF format has a three-level hierarchy: file header, image file directories, and **data**.
+- GeoTIFF format has a three-level hierarchy: file header, image file directories, and **data**.
 
-  - GeoTIFF format stores a **broad range of georeferencing information**, catering to geographic
-  as well as projected coordinate systems.
+- GeoTIFF format stores a **broad range of georeferencing information**, catering to geographic
+as well as projected coordinate systems.
 
-  - As an example, GeoTIFF 1.1 is an approved NASA Earth Science Data Systems standard
-  (see [Standards and Practices](https://earthdata.nasa.gov/esdis/eso/standards-and-references)).
+- As an example, GeoTIFF 1.1 is an approved NASA Earth Science Data Systems standard
+(see [Standards and Practices](https://earthdata.nasa.gov/esdis/eso/standards-and-references)).
 
-> ## Why GeoTIFF format
->
-> You work with some geospatial data for a project in your community.
-> You choose the GeoTIFF format for the data.
-> Your colleague asks:
->
-> 1. Why did you choose the GeoTIFF format?
-> 2. Does this format help to make the data FAIR?
->
->> ## Solution
->>
->> 1. You found that GeoTIFF format is the standard in your research community and
->> therefore interoperable and reusable for anyone.
->> GeoTIFF format is independent of computer’s architecture, operating system, and graphics hardware.
->> Also, the GeoTIFF format can contain both data and geographic information.
->>
->> 2. Therefore, yes, the GeoTIFF format helps to make the data FAIR.
-> {: .solution}
-{: .challenge}
+### [HDF5](https://www.hdfgroup.org/solutions/hdf5/):
 
-- [HDF5](https://www.hdfgroup.org/solutions/hdf5/):
 The Hierarchical Data Format Version 5, (HDF5) implements a model for managing and storing data,
 developed by the National Center for Supercomputing Applications (NCSA):
 ![HDF5]({{ page.root }}/fig/hdf5_data_model.png)
 
-  - HDF5 is a **general-purpose**, **machine-independent** standard for storing scientific data in files.
+- HDF5 is a **general-purpose**, **machine-independent** standard for storing scientific data in files.
 
-  - HDF5 files are organized in a hierarchical structure, with two primary structures: groups and datasets.
+- HDF5 files are organized in a hierarchical structure, with two primary structures: groups and datasets.
 
-  - HDF5 dataset: a multidimensional array of **data** elements, together with supporting **metadata**.
+- HDF5 dataset: a multidimensional array of **data** elements, together with supporting **metadata**.
 
-  - There are four essential classes of metadata: name, datatype, dataspace, and storage layout.
+- There are four essential classes of metadata: name, datatype, dataspace, and storage layout.
 
-  - An HDF5 structure is **self-describing**, allowing an application to interpret
-  the structure and contents of a file without any outside information.
+- An HDF5 structure is **self-describing**, allowing an application to interpret
+the structure and contents of a file without any outside information.
 
-  - As an example, NASA's Earth Observing System, the primary data repository for
-  understanding global climate change, uses HDF5,
-  (for more information [see](https://www.loc.gov/preservation/digital/formats/fdd/fdd000229.shtml)).
+- As an example, NASA's Earth Observing System, the primary data repository for
+understanding global climate change, uses HDF5,
+(for more information see [this page](https://www.loc.gov/preservation/digital/formats/fdd/fdd000229.shtml)).
 
-> ## Why HDF5 format
+> ## While you work ...
 >
-> You work with some geospatial data for a project in your community.
-> You choose the HDF5 format for the data.
-> Your colleague asks:
+> Imagine that you work with some geospatial data for a project in your community.
+> You choose a format.
 >
-> 1. Why did you choose the HDF5 format?
-> 2. Does this format help to make the data FAIR?
+> How to make sure that the file format you choose improves the FAIRness of your data?
 >
 >> ## Solution
 >>
->> 1. You found that HDF5 format is the standard in your research community and
->> therefore interoperable and reusable for anyone.
->> HDF5 is a general-purpose, machine-independent format.
->> Also, HDF5 format can contain both data and metadata.
+>> You need to check if:
 >>
->> 2. Therefore, yes, HDF5 format helps to make the data FAIR.
+>> - The file format can store relevant metadata related to the data.
+>> - The file format is the standard in your community, and therefore interoperable and reusable for anyone.
 > {: .solution}
 {: .challenge}
 
