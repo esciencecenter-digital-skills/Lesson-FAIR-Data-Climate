@@ -147,7 +147,7 @@ Next to large-scale general-use repositories such as [Zenodo](https://zenodo.org
 > ## Data repositories
 >
 > Let's examine a couple of different data repositories (maybe datasets in different repos?)
-> For each of the following, [Zenodo](https://zenodo.org/), [ESGF](https://esgf.llnl.gov/), [CDS](https://cds.climate.copernicus.eu), and [Climate4Impact](https://climate4impact.eu), answer the following questions:
+> For each of the following, [Zenodo](https://zenodo.org/), [ESGF](https://esgf.llnl.gov/), [CDS](https://cds.climate.copernicus.eu), answer the following questions:
 >
 > - Is this repository publicly accessible?
 > - Is it free?
