@@ -48,7 +48,7 @@ Next to large-scale general-use repositories such as [Zenodo](https://zenodo.org
 > 5. You upload the data to a generic repository such as zenodo
 > 6. You upload the data to a domain-specific repository such as [Hydroshare](https://www.hydroshare.org/)
 >
-> Describe which of these are adhering to the [FAIR principles](https://www.go-fair.org/fair-principles/).
+> Describe which of these are adhering to the [FAIR principles](https://www.go-fair.org/fair-principles/), focusing on the findability and accessibility criteria.
 >
 >> ## Solution
 >> <table style="width:50%">
@@ -63,6 +63,7 @@ Next to large-scale general-use repositories such as [Zenodo](https://zenodo.org
 >>       <th>A1.1</th>
 >>       <th>A1.2</th>
 >>       <th>A2</th>
+>>       <th>Verdict</th>
 >>     </tr>
 >>   </thead>
 >>   <tbody>
@@ -76,6 +77,7 @@ Next to large-scale general-use repositories such as [Zenodo](https://zenodo.org
 >>       <td>😢❌</td>
 >>       <td>😢❌</td>
 >>       <td>😢❌</td>
+>>       <td>Hard to find and difficult to access. </td>
 >>     </tr>
 >>     <tr>
 >>       <td>2.</td>
@@ -87,6 +89,7 @@ Next to large-scale general-use repositories such as [Zenodo](https://zenodo.org
 >>       <td>🤔❓</td>
 >>       <td>🤔❓</td>
 >>       <td>😢❌</td>
+>>       <td>Data may be found indirectly through the papers DOI, but there is no clear access protocol.</td>
 >>     </tr>
 >>     <tr>
 >>       <td>3.</td>
@@ -98,6 +101,7 @@ Next to large-scale general-use repositories such as [Zenodo](https://zenodo.org
 >>       <td>🤔❓</td>
 >>       <td>🤔❓</td>
 >>       <td>😢❌</td>
+>>       <td>Both data findability and accessibility will certainly take (human) effort.</td>
 >>     </tr>
 >>     <tr>
 >>       <td>4.</td>
@@ -109,6 +113,7 @@ Next to large-scale general-use repositories such as [Zenodo](https://zenodo.org
 >>       <td>🥳✔</td>
 >>       <td>🥳✔</td>
 >>       <td>🤔❓</td>
+>>       <td>This could probably work if the university offers enough support.</td>
 >>     </tr>
 >>     <tr>
 >>       <td>5.</td>
@@ -120,6 +125,7 @@ Next to large-scale general-use repositories such as [Zenodo](https://zenodo.org
 >>       <td>🥳✔</td>
 >>       <td>🥳✔</td>
 >>       <td>🥳✔</td>
+>>       <td>The best solution if there is no suitable domain-specific repository.</td>
 >>     </tr>
 >>     <tr>
 >>       <td>6.</td>
@@ -131,6 +137,7 @@ Next to large-scale general-use repositories such as [Zenodo](https://zenodo.org
 >>       <td>🥳✔</td>
 >>       <td>🥳✔</td>
 >>       <td>🥳✔</td>
+>>       <td>The additional focus makes it even easier for you to describe your data according to the relevant standards, and for others to find it.</td>
 >>     </tr>
 >>   </tbody>
 >> </table>
