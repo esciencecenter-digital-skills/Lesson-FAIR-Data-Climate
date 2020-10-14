@@ -24,7 +24,7 @@ We also explained what a FAIRification practice means in a FAIR context. In summ
 
 > ## You make your research data findable by:
 >
-> ![HDF5]({{ page.root }}/fig/findable.jpg)
+> ![findable]({{ page.root }}/fig/findable.jpg)
 >
 > - publishing your **data** and/or **metadata** in a searchable resource such as a repository
 >   that assigns a **persistent identifier**.
@@ -35,7 +35,7 @@ We also explained what a FAIRification practice means in a FAIR context. In summ
 
 > ## You make your research data accessible by:
 >
-> ![HDF5]({{ page.root }}/fig/accessible.jpg)
+> ![accessible]({{ page.root }}/fig/accessible.jpg)
 >
 > - attaching a **data license** or clear data accessibility statement in your openly available administrative metadata.
 > - ensuring your data are archived in long-term storage and retrievable by their **persistent identifier** using a standard protocol.
@@ -44,7 +44,7 @@ We also explained what a FAIRification practice means in a FAIR context. In summ
 
 > ## You make your research data interoperable by:
 >
-> ![HDF5]({{ page.root }}/fig/interoperable.jpg)
+> ![interoperable]({{ page.root }}/fig/interoperable.jpg)
 >
 > - including sufficient and structural **metadata** in accordance with your research community’s standards.
 > - using common standards, terminologies, vocabularies, and ontologies for the data.
@@ -53,7 +53,7 @@ We also explained what a FAIRification practice means in a FAIR context. In summ
 
 > ## You make your research data reusable by:
 >
-> ![HDF5]({{ page.root }}/fig/reusable.jpg)
+> ![reusable]({{ page.root }}/fig/reusable.jpg)
 >
 > - attaching all the relevant contextual information in either the **documentation** or **metadata**.
 > - including sufficient and structural **metadata** in accordance with your research community’s standards.
