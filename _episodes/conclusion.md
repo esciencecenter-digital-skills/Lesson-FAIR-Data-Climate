@@ -26,7 +26,7 @@ We also explained what a FAIRification practice means in a FAIR context. In summ
 >
 > ![findable]({{ page.root }}/fig/findable.jpg)
 >
-> - publishing your **data** and/or **metadata** in a searchable resource such as a repository
+> - Publish your **data** and/or **metadata** in a searchable resource such as a repository
 >   that assigns a **persistent identifier**.
 > - including rich accurate machine-readable descriptive **metadata** and keywords to your data,
 >   preferably according to your community standards.
