@@ -22,7 +22,7 @@ We discussed each FAIRification practice, i.e. documentation, metadata, file for
 persistent identifiers, and data licenses.
 We also explained what a FAIRification practice means in a FAIR context. In summary:
 
-> ## You make your research data findable by:
+> ## Make your research findable
 >
 > ![findable]({{ page.root }}/fig/findable.jpg)
 >
