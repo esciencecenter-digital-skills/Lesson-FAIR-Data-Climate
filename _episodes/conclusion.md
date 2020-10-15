@@ -66,7 +66,7 @@ is used under a CC-BY license. Source: <https://doi.org/10.5281/zenodo.3695300>*
 
 ## Assessing FAIRness
 
-FAIR is a journey. A FAIR assessment now is a snapshot in time.
+FAIR is a journey. The FAIR principles are guidelines. A FAIR assessment now is a snapshot in time.
 Nevertheless, individuals and communities look to how FAIR their data are.
 The reasons are various, including gaining a better understanding and making improvements.
 Ultimately, an assessment can be a helpful guide on the path to becoming more FAIR.
