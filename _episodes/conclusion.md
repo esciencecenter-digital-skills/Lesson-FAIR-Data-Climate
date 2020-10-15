@@ -48,7 +48,7 @@ We also explained what a FAIRification practice means in a FAIR context. In summ
 >
 > - Include sufficient and structural **metadata** in accordance with your research community’s standards.
 > - Use common standards, terminologies, vocabularies, and ontologies for the data.
-> - preferring open, long-term viable **file formats** for your data and metadata.
+> - Prefer open, long-term viable **file formats** for your data and metadata.
 {: .checklist}
 
 > ## You make your research data reusable by:
