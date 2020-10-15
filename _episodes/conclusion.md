@@ -56,7 +56,7 @@ We also explained what a FAIRification practice means in a FAIR context. In summ
 > ![reusable]({{ page.root }}/fig/reusable.jpg)
 >
 > - Attach all the relevant contextual information in either the **documentation** or **metadata**.
-> - including sufficient and structural **metadata** in accordance with your research community’s standards.
+> - Include sufficient and structural **metadata** in accordance with your research community’s standards.
 > - preferring open, long-term viable **file formats** for your data and metadata.
 > - Apply a machine-readable **data license**.
 {: .checklist}
