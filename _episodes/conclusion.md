@@ -58,7 +58,7 @@ We also explained what a FAIRification practice means in a FAIR context. In summ
 > - attaching all the relevant contextual information in either the **documentation** or **metadata**.
 > - including sufficient and structural **metadata** in accordance with your research community’s standards.
 > - preferring open, long-term viable **file formats** for your data and metadata.
-> - applying a machine-readable **data license**.
+> - Apply a machine-readable **data license**.
 {: .checklist}
 
 *The images of FAIR principles are created by Scriberia for The Turing Way community and
