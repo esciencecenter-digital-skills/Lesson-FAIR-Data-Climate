@@ -84,10 +84,10 @@ The following are some resources and tools to help you get started.
 We provided recommendations, examples of steps you can take before, during and after your research project
 to make your research data more FAIR. FAIR sounds like a lot of work. However, you can get started by:
 
-- understanding how FAIR translates to your field/community.
-- using standards that are common to your field/community.
-- collaborating with other communities to define a relevant metadata scheme/standards.
-- checking the requirements of the repository where data is stored.
+- Understand how FAIR translates to your field/community.
+- Use standards that are common to your field/community.
+- Collaborate with other communities to define a relevant metadata scheme/standards.
+- Check the requirements of the repository where data is stored.
 
 > ## Make a checklist for your data
 >
