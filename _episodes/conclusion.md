@@ -76,7 +76,7 @@ The following are some resources and tools to help you get started.
 - [FAIR-Aware](https://fairaware.dans.knaw.nl/) assessment tool.
 - [Zenodo overview](https://about.zenodo.org/principles/) of how the service responds to the FAIR principles.
 - A list of resources for the assessment of digital objects provided by [FAIRassist](https://fairassist.org/#!/).
-- [Mirror, mirror on the wall, who is the FAIRest one of all?](https://forschungsdaten-thueringen.de/entry/mirror-mirror-on-the-wall-tkfdm-announces-fairest-dataset-award.html).
+- [Mirror, mirror on the wall, who is the FAIRest one of all?](https://forschungsdaten-thueringen.de/entry/mirror-mirror-on-the-wall-tkfdm-announces-fairest-dataset-award.html)
 - [The Australian Research Data Commons’ FAIR data self-assessment tool](https://ardc.edu.au/resources/working-with-data/fair-data/fair-self-assessment-tool/).
 
 ## Improving FAIRness
