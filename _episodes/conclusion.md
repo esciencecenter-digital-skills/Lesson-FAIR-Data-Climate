@@ -12,7 +12,7 @@ objectives:
 keypoints:
 - "FAIRification practices are about documentation, metadata, file formats, access to data,
 persistent identifiers, and data licenses."
-- "FAIR will change the way we do science."
+- "The FAIR principles provide clear handles on data management in the movement towards open and sustainable science."
 - "FAIR brings all the stakeholders together."
 ---
 
