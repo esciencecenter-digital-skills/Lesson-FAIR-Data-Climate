@@ -51,7 +51,7 @@ We also explained what a FAIRification practice means in a FAIR context. In summ
 > - Prefer open, long-term viable **file formats** for your data and metadata.
 {: .checklist}
 
-> ## You make your research data reusable by:
+> ## Make your data reusable
 >
 > ![reusable]({{ page.root }}/fig/reusable.jpg)
 >
