@@ -42,7 +42,7 @@ We also explained what a FAIRification practice means in a FAIR context. In summ
 > - Give **access** to the **metadata**, even if the data are closed.
 {: .checklist}
 
-> ## You make your research data interoperable by:
+> ## Make your data interoperable
 >
 > ![interoperable]({{ page.root }}/fig/interoperable.jpg)
 >
