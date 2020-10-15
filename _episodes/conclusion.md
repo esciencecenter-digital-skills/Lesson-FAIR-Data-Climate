@@ -39,7 +39,7 @@ We also explained what a FAIRification practice means in a FAIR context. In summ
 >
 > - Attach a **data license** or clear data accessibility statement in your openly available administrative metadata.
 > - Ensure your data are archived in long-term storage and retrievable by their **persistent identifier** using a standard protocol.
-> - giving **access** to the **metadata**, even if the data are closed.
+> - Give **access** to the **metadata**, even if the data are closed.
 {: .checklist}
 
 > ## You make your research data interoperable by:
