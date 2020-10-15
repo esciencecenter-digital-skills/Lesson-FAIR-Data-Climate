@@ -13,7 +13,7 @@ keypoints:
 - "FAIRification practices are about documentation, metadata, file formats, access to data,
 persistent identifiers, and data licenses."
 - "The FAIR principles provide clear handles on data management in the movement towards open and sustainable science."
-- "FAIR brings all the stakeholders together."
+- "The FAIR principles promote maximum use of research data, involving all the stakeholders from data producers to funding agencies."
 ---
 
 ## FAIRification practices and FAIR principles
