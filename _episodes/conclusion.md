@@ -33,7 +33,7 @@ We also explained what a FAIRification practice means in a FAIR context. In summ
 >
 {: .checklist}
 
-> ## You make your research data accessible by:
+> ## Make your data acessible
 >
 > ![accessible]({{ page.root }}/fig/accessible.jpg)
 >
