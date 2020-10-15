@@ -47,7 +47,7 @@ We also explained what a FAIRification practice means in a FAIR context. In summ
 > ![interoperable]({{ page.root }}/fig/interoperable.jpg)
 >
 > - Include sufficient and structural **metadata** in accordance with your research community’s standards.
-> - using common standards, terminologies, vocabularies, and ontologies for the data.
+> - Use common standards, terminologies, vocabularies, and ontologies for the data.
 > - preferring open, long-term viable **file formats** for your data and metadata.
 {: .checklist}
 
