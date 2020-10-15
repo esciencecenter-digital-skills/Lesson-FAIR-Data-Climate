@@ -7,7 +7,7 @@ questions:
 - "What do I do now to improve the FAIRness of my data?"
 objectives:
 - "Relate each FAIRification practice with FAIR principles."
-- "Know about available tools/resources for assessing FAIRness of your data."
+- "Be aware of available tools/resources for assessing FAIRness of your data."
 - "Understand the next steps you can take to improve FAIRness of your data."
 keypoints:
 - "FAIRification practices are about documentation, metadata, file formats, access to data,
