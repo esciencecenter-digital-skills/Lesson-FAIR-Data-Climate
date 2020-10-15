@@ -24,8 +24,6 @@ We also explained what a FAIRification practice means in a FAIR context. In summ
 
 > ## Make your research findable
 >
-> ![findable]({{ page.root }}/fig/findable.jpg)
->
 > - Publish your **data** and/or **metadata** in a searchable resource such as a repository
 >   that assigns a **persistent identifier**.
 > - Include rich accurate machine-readable descriptive **metadata** and keywords to your data,
@@ -35,16 +33,12 @@ We also explained what a FAIRification practice means in a FAIR context. In summ
 
 > ## Make your data acessible
 >
-> ![accessible]({{ page.root }}/fig/accessible.jpg)
->
 > - Attach a **data license** or clear data accessibility statement in your openly available administrative metadata.
 > - Ensure your data are archived in long-term storage and retrievable by their **persistent identifier** using a standard protocol.
 > - Give **access** to the **metadata**, even if the data are closed.
 {: .checklist}
 
 > ## Make your data interoperable
->
-> ![interoperable]({{ page.root }}/fig/interoperable.jpg)
 >
 > - Include sufficient and structural **metadata** in accordance with your research community’s standards.
 > - Use common standards, terminologies, vocabularies, and ontologies for the data.
@@ -53,16 +47,15 @@ We also explained what a FAIRification practice means in a FAIR context. In summ
 
 > ## Make your data reusable
 >
-> ![reusable]({{ page.root }}/fig/reusable.jpg)
->
 > - Attach all the relevant contextual information in either the **documentation** or **metadata**.
 > - Include sufficient and structural **metadata** in accordance with your research community’s standards.
 > - Prefer open, long-term viable **file formats** for your data and metadata.
 > - Apply a machine-readable **data license**.
 {: .checklist}
 
-*The images of FAIR principles are created by Scriberia for The Turing Way community and
-is used under a CC-BY license. Source: <https://doi.org/10.5281/zenodo.3695300>*
+![FAIR principles illustration by Scriberia](../fig/FAIRPrinciples.jpg)
+*This image was created by Scriberia for The Turing Way community and is used under a
+CC-BY license. Source: <https://doi.org/10.5281/zenodo.3695300>*
 
 ## Assessing FAIRness
 
