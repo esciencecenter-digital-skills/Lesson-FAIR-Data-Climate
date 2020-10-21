@@ -4,7 +4,7 @@ teaching: 15
 exercises: 15
 questions:
 - "What are metadata?"
-- "What is an ontology (or controlled vocabulary)?"
+- "What is an ontology or controlled vocabulary?"
 - "What are metadata standards?"
 objectives:
 - "Understand metadata and their role in FAIR data"
@@ -20,6 +20,8 @@ keypoints:
 
 Metadata are data about data. In other words, metadata is the underlying definition or description of data.
 For example, `author name`, `date created`, `date modified` and `file size` are examples of very basic metadata for a file.
+
+_AK: for domain agnostic metadata, see [Dublin Core Metadata Initiative](http://dublincore.org/specifications/dublin-core/)_
 
 Metadata make finding and working with the data easier. Therefore, they are essential components in making your data FAIR.
 One could argue that metadata are more important than your data.
@@ -60,6 +62,8 @@ Other examples are the authors, title, abstract, keywords, persistent identifier
 For example, measurement units, data collection method, sampling procedure, sample size, categories, variables, etc.
 Structural metadata have to be created according to best practices in a research community and will be published together with the data.
 
+_AK: see_ https://www.dcc.ac.uk/guidance/standards/metadata
+
 > ## Keep your metadata up-to-date!
 >
 > - Descriptive and structural metadata should be added continuously throughout the project.
@@ -91,7 +95,9 @@ Using an ontology:
 >
 > In climate-related domains, many variables depend on the type of surface.
 > How can you specify the surface type in the metadata?
->
+
+_AK: strictly speaking, ontology != vocabulary; please, use some text from [here](https://www.w3.org/standards/semanticweb/ontology)._
+
 >> ## Solution
 >>
 >> Climate and Forecast metadata ([CF conventions](http://cfconventions.org/))
@@ -100,6 +106,8 @@ Using an ontology:
 [Area Type Table](http://cfconventions.org/Data/area-type-table/current/build/area-type-table.html).
 > {: .solution}
 {: .challenge}
+
+_AK: I don't see any ontology included here. Perhaps, refer to metadata standard(s) only._
 
 ## Metadata standards
 
@@ -145,9 +153,11 @@ Some of the recognized metadata standards for climate-related domains are:
 
 > ## Sensitive data
 >
-> You cannot openly publish the sensitive data. However, you can always publish **rich metadata** about your data.
+> You cannot openly publish sensitive data. However, you can always publish **rich metadata** about your data.
 > Publishing metadata helps you to make clear under
 > which conditions the data can be accessed and how they may be reused.
 {: .callout}
+
+_AK: Could you provide an example from climate sciences?_
 
 {% include links.md %}

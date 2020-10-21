@@ -28,20 +28,19 @@ those wishing to enhance the reusability of their data holdings." This guideline
 has subsequently been endorsed by working groups, funding bodies and
 institutions.
 
-The FAIR principles have a relatively strong focus on "machine-actionability".
-That means that the data should not only be *fair* for humans,
-but also for computers. This is especially relevant for data discovery and working with data.
+The FAIR principles have a strong focus on "machine-actionability".
+This means that the data should be primarily readable by computers (and not only by humans), which is particularly relevant for working and discovering new data.
 
 ![FAIR principles illustration by Scriberia](../fig/FAIRPrinciples.jpg) *This
 image was created by Scriberia for The Turing Way community and is used under a
 CC-BY licence. Source: <https://doi.org/10.5281/zenodo.3695300>*
 
-> ## FAIR is not open
+> ## FAIR is not (necessarily) Open
 >
-> Some data cannot be openly shared for example because of privacy considerations.
-> For such situations the following guideline from the EU H2020 programme may be followed:
+> Some data cannot be openly shared, for example, because of privacy considerations.
+> For such situations, the EU H2020 Program Guidelines on FAIR Data apply:
 >
-> *"As open as possible, as closed as necessary."*
+> data should be *"As open as possible, as closed as necessary."*
 >
 {: .callout}
 
@@ -60,18 +59,19 @@ CC-BY licence. Source: <https://doi.org/10.5281/zenodo.3695300>*
 
 > ## What's in it for you?
 >
-> Many funders nowadays require data management plans in which the researchers
-> describe their adherence to the FAIR principles. A great step forward, but if 
+> Many funders nowadays require from researchers data management plans which
+> adhere to the FAIR principles. A great step forward, but if 
 > we are going to spend the time and effort, we prefer to find some intrinsic 
 > motivation.
 >
-> Have a look at the original [Nature paper]() on FAIR data, the [GO-FAIR
-> living document](https://www.go-fair.org/fair-principles/), and the Danish
-> tutorial [howtofair.dk](https://www.howtofair.dk/why-fair/). What are the main
-> reasons for *you* to (not) embrace the FAIR principles?
+> Have a look at the original [Nature paper](https://doi.org/10.1038/sdata.2016.18)
+> on FAIR Data, the [GO-FAIR initiative](https://www.go-fair.org/fair-principles/),
+> and the Danish tutorial [howtofair.dk](https://www.howtofair.dk/why-fair/).
+> What are the main reasons for *you* to (not) embrace the FAIR principles?
 {: .discussion}
 
-## FAIRification is a process
+## How FAIR are my data?
+_AK: The title was a bit misleading; there isn't much about FAIRification process itself._
 
 It is important to realize that the FAIR principles are not rules or standards.
 They are a set of guiding principles, but their implementation may differ per
@@ -80,10 +80,10 @@ only in 2016, a comprehensive set of specific requirements for FAIR data is
 lacking for most fields.
 
 In this tutorial, we will therefore interpret "FAIRness" as a continous scale
-(less FAIR vs. more FAIR) rather than a binary classification (FAIR vs. not FAIR).
+(less FAIR vs. more FAIR) rather than a binary classification (FAIR vs. not FAIR) (Mons et al., 2017).
 Some steps can already be taken today, whereas other steps require the
-development of standards across a scientific domain, or even changes to the funding model of projects. We will aim to identify
-those quick wins and to facilitate the discussion on more involved developments.
+development of standards across a scientific domain, or even changes to the funding model of projects.
+We will aim to identify those quick wins and to facilitate the discussion on more involved developments.
 
 > ## Select your case study for the tutorial
 >
@@ -107,8 +107,10 @@ those quick wins and to facilitate the discussion on more involved developments.
 
 ## Further reading
 
-- [2016 Nature paper](https://doi.org/10.1038/sdata.2016.18)
-- [GO FAIR (updated link from Nature paper)](https://www.go-fair.org/fair-principles/)
-- [EU H2020 guidelines on FAIR data management (PDF)](https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf)
+- Wilkinson et al. (2016) _The FAIR Guiding Principles for scientific data management and stewardship_. doi:[10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18)
+- Mons et al. (2017) _Cloudy, increasingly FAIR; revisiting the FAIR Data guiding principles for the European Open Science Cloud_. doi:[10.3233/ISU-170824](https://doi.org/10.3233/ISU-170824)
+- [FORCE11](https://www.force11.org/fairprinciples)
+- [GO FAIR initiative](https://www.go-fair.org/fair-principles/)
+- [EU H2020 Guidelines on FAIR Data Management](https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf)
 
 {% include links.md %}

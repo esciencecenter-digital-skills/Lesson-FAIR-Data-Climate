@@ -88,6 +88,8 @@ Here are some recommended formats for different types:
 > Data Management Plan (DMP) covers how data can be stored, described and reused.
 {: .callout}
 
+_AK: For example, [DMPonline](https://www.dcc.ac.uk/dmponline) or [DSW](https://ds-wizard.org/)
+
 ## Different formats for different purposes
 
 In the previous sections, we learned that different file formats have different properties.
@@ -130,6 +132,8 @@ Therefore, you may have to keep some data files in multiple formats.
 >> - R1.3: (meta)data meet domain-relevant community standards e.g. those for data formats.
 > {: .solution}
 {: .challenge}
+
+_AK: overlaps with the Introduction._
 
 ## Common file formats for geospatial data
 

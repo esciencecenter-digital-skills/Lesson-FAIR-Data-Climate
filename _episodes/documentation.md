@@ -22,9 +22,9 @@ keypoints:
 Data documentation is all relevant information needed to properly interpret a
 dataset. Documentation can be very specific about the data. For example, what
 does this dataset represent, what units is it in, is it a time average, what is
-the relation between 2 datapoints (subsequent in time, distinct in space, same
-or different variable), etc. But, the documentation can also answer some
-questions about the project: why were these data collected, by whom, and what
+the relation between two data points (subsequent in time, distinct in space, same
+or different variable), etc. The documentation can also answer some
+questions about the project: why were the data collected, by whom, and what
 questions do they address? Was there any kind of quality assurance?
 
 ## Where to document my data?
@@ -32,9 +32,10 @@ questions do they address? Was there any kind of quality assurance?
 Documentation can take many forms: a data management plan, papers published,
 (jupyter) notebooks, lab journals, provenance information, etc. It is a good
 idea to bundle these with the data when you publish the data, so that people
-that find your data will not have to search for it elsewhere, and that access to documentation is guaranteed. Most data
-repositories have a 'description' field, which is a suitable place to provide
-any information that is not covered by the other metadata fields.
+that find your data will not have to search for it elsewhere, and that access
+to the documentation is guaranteed. Most data repositories have a 'description'
+field, which is a suitable place to provide any information that is not covered by
+the other metadata fields.
 
 > ## Grouping related files with Zenodo communities
 > Data documentation in your project may be scattered over many files of
@@ -69,7 +70,7 @@ machine readability.
 > - Is there a general description of the data?
 > - Is there a reference to some external documentation of the data (e.g. a
 >   journal publication)?
-> - Would you be able to reproduce this data, based on the provided information?
+> - Would you be able to reproduce the research based on the provided information?
 > - Would you be able to use this dataset in your own (hypothetical) research
 >   project?
 > - Are contact details provided that you can use in case you have questions?
