@@ -86,6 +86,7 @@ Here are some recommended formats for different types:
 > ## Data Management Plan
 >
 > Data Management Plan (DMP) covers how data can be stored, described and reused.
+> For example, see [DMPonline](https://www.dcc.ac.uk/dmponline) or [DSW](https://ds-wizard.org/).
 {: .callout}
 
 ## Different formats for different purposes
