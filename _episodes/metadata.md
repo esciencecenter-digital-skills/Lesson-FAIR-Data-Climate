@@ -4,7 +4,7 @@ teaching: 15
 exercises: 15
 questions:
 - "What are metadata?"
-- "What is an ontology (or controlled vocabulary)?"
+- "What is an ontology or controlled vocabulary?"
 - "What are metadata standards?"
 objectives:
 - "Understand metadata and their role in FAIR data"
@@ -91,7 +91,6 @@ Using an ontology:
 >
 > In climate-related domains, many variables depend on the type of surface.
 > How can you specify the surface type in the metadata?
->
 >> ## Solution
 >>
 >> Climate and Forecast metadata ([CF conventions](http://cfconventions.org/))
@@ -145,7 +144,7 @@ Some of the recognized metadata standards for climate-related domains are:
 
 > ## Sensitive data
 >
-> You cannot openly publish the sensitive data. However, you can always publish **rich metadata** about your data.
+> You cannot openly publish sensitive data. However, you can always publish **rich metadata** about your data.
 > Publishing metadata helps you to make clear under
 > which conditions the data can be accessed and how they may be reused.
 {: .callout}
