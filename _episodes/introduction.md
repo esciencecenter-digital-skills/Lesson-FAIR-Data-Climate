@@ -29,18 +29,17 @@ has subsequently been endorsed by working groups, funding bodies and
 institutions.
 
 The FAIR principles have a strong focus on "machine-actionability".
-This means that the data should be primarily readable by computers (and not only by humans), which is particularly relevant for working and discovering new data.
+This means that the data should be easily readable by computers (and not only by humans). This is particularly relevant for working with and discovering new data.
 
 ![FAIR principles illustration by Scriberia](../fig/FAIRPrinciples.jpg) *This
 image was created by Scriberia for The Turing Way community and is used under a
 CC-BY licence. Source: <https://doi.org/10.5281/zenodo.3695300>*
 
-> ## FAIR is not (necessarily) Open
+> ## FAIR is not open
 >
-> Some data cannot be openly shared, for example, because of privacy considerations.
-> For such situations, the EU H2020 Program Guidelines on FAIR Data apply:
+> Some data cannot be shared openly, for example, because of privacy considerations.
+> For such situations, the EU H2020 Program Guidelines on FAIR Data say that the data should be *"As open as possible, as closed as necessary."*
 >
-> data should be *"As open as possible, as closed as necessary."*
 >
 {: .callout}
 

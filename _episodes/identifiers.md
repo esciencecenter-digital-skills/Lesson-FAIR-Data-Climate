@@ -26,8 +26,6 @@ Assigning a PID to your data makes sense. It will make the data easier to find, 
 > ![Anatomy of a DOI](../fig/doi_anatomy.png)
 {: .callout}
 
-_AK: check out [this](https://userinfo.surfsara.nl/systems/epic-pid) site from SURF regarding PIDs etc._
-
 > ## Exercise
 > - Where does the above linked DOI point to?
 > - Do you think this DOI will still be valid in 50 years?
@@ -78,8 +76,6 @@ Linked data
 -----------
 
 Remember that we said that data should be *fair* to computers? By assigning PIDs to our datasets (and publications), large networks of linked data and information can be created automatically.
-
-_AK: The sentences above are rather vague. If you wish to briefly mention Linked (Open) Data then why not refering to [this](https://www.w3.org/DesignIssues/LinkedData.html) document by the inventor._
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9G4EMJCwCw4?start=45" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
