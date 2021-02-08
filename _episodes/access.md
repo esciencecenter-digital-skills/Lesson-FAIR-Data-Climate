@@ -152,7 +152,7 @@ Next to large-scale general-use repositories such as [Zenodo](https://zenodo.org
 > - Is this repository publicly accessible?
 > - Is it free?
 > - Is it proprietary?
-> - Does it allow for authenthication?
+> - Does it allow for authentication?
 > - Is there any quality control for this repository?
 > - Are metadata accessible, even if the data is not?
 > - How long will the data be maintained?
@@ -160,6 +160,92 @@ Next to large-scale general-use repositories such as [Zenodo](https://zenodo.org
 > - Is it easy to find data that is stored in this repository?
 > - Is it easy to download data from this repository?
 > - Is it easy to upload data to this repository?
+>
+>> ## Solution
+>> <table style="width:90%">
+>>   <thead>
+>>     <tr>
+>>       <th></th>
+>>       <th>Zenodo</th>
+>>       <th>ESGF</th>
+>>       <th>CDS</th>
+>>     </tr>
+>>   </thead>
+>>   <tbody>
+>>     <tr>
+>>       <td>1. Is this repository publicly accessible?</td>
+>>       <td>🙂Most (meta)data are publicly accessible, but there are also close/restricted datasets.</td>
+>>       <td>🥳Yes but account registration is required.</td>
+>>       <td>🥳Yes but account registration is required.</td>
+>>     </tr>
+>>     <tr>
+>>       <td>2. Is it free?</td>
+>>       <td>🥳✔</td>
+>>       <td>🥳✔</td>
+>>       <td>🥳✔</td>
+>>     </tr>
+>>     <tr>
+>>       <td>3. Is it proprietary?</td>
+>>       <td>🥳No. Non-proprietary format is mandatory on Zenodo.</td>
+>>       <td>🥳No. Data are mostly available in NetCDF format.</td>
+>>       <td>🥳No. Most datasets are in NetCDF or GRIB format.</td>
+>>     </tr>
+>>     <tr>
+>>       <td>4. Does it allow for authentication?</td>
+>>       <td>🙂A light authentication mechanism, such as a token (via OAuth 2.0 access token), is acceptable in some certain cases, e.g. high-traffic access. This authentication is acceptable as long as there is a totally open/anonymous route too.</td>
+>>       <td>🙂ESGF uses the OpenID and OAuth2 authentication system. 
+             Login credentials are required.
+             An open source <a href="https://github.com/ESGF/esgf-auth">authentication client</a> 
+             is also available.</td>
+>>       <td>🙂CDS uses its <a href="https://cds.climate.copernicus.eu/api-how-to">own API and authentication key</a>. 
+             Login credentials are required.
+             The <a href="https://github.com/ecmwf/cdsapi">API</a> is open source.</td>
+>>     </tr>
+>>     <tr>
+>>       <td>5. Is there any quality control for this repository?</td>
+>>       <td>🙂Although not mandatory, it is highly recommended by Zenodo to include qualified references to other (meta)data. This is a quite common practice on Zenodo.</td>
+>>       <td>😢Citation links and references are usually missing for many datasets.</td>
+>>       <td>🙂Quite some datasets are provided with citation/reference information.</td>
+>>     </tr>
+>>     <tr>
+>>       <td>6. Are metadata accessible, even if the data is not?</td>
+>>       <td>🙂Yes for some datasets which apply this principle.</td>
+>>       <td>🤔Unknown.</td>
+>>       <td>🤔Unknown.</td>
+>>     </tr>
+>>     <tr>
+>>       <td>7. How long will the data be maintained?</td>
+>>       <td>🥳Lifetime of the host laboratory CERN.</td>
+>>       <td>🤔Unknown.</td>
+>>       <td>🤔Unknown.</td>
+>>     </tr>
+>>     <tr>
+>>       <td>8. Is there any backup system in place?</td>
+>>       <td>🥳12-hourly backup for Metadata and persistent identifiers.</td>
+>>       <td>🥳Yes. Subsets of the data are replicated at Lawrence Livermore National Laboratory (LLNL) for backup.</td>
+>>       <td>🥳Yes for at least all ECMWF data.</td>
+>>     </tr>
+>>     <tr>
+>>       <td>9. Is it easy to find data that is stored in this repository?</td>
+>>       <td>🥳Yes. All data are findable via DOI and well documented. There are also plenty filter available for searching.</td>
+>>       <td>🤔PID is assigned per dataset. But the UI for data browsing is not friendly. Although metadata are provided, the datasets lack documentation. </td>
+>>       <td>🥳Yes. All data are findable via DOI. The documentations are rich. The searching UI is quite friendly.</td>
+>>     </tr>
+>>     <tr>
+>>       <td>10. Is it easy to download data from this repository?</td>
+>>       <td>🥳Yes for data with open access.</td>
+>>       <td>🥳Yes.</td>
+>>       <td>🥳Yes.</td>
+>>     </tr>
+>>     <tr>
+>>       <td>11. Is it easy to upload data to this repository?</td>
+>>       <td>🥳Yes. Although one should use a Zenodo account, or an GitHub account, or an ORCID account.</td>
+>>       <td>🥳Yes. Although registering an account is required.</td>
+>>       <td>😢Not possible to upload.</td>
+>>     </tr>
+>>   </tbody>
+>> </table>
+> {: .solution}
 {: .challenge}
 
 > ## What about your data?
