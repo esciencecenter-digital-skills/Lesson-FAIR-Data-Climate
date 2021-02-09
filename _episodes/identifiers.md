@@ -27,10 +27,17 @@ Assigning a PID to your data makes sense. It will make the data easier to find, 
 {: .callout}
 
 > ## Exercise
-> - Where does the above linked DOI point to?
+> - Where does the above [linked DOI](https://doi.org/10.1002/qj.828) point to?
 > - Do you think this DOI will still be valid in 50 years?
 > - Who is responsible to update the DOI if you get a dead link?
 > - What do you think should happen if the journal ceases to exist?
+>
+>> ## Solution
+>> - The DOI above points to an article: *The ERA‐Interim reanalysis: configuration and performance of the data assimilation system*, by D. P. Dee et al.
+>> - I expect the DOI to be valid, but not the URL it pointing to.
+>> - The journal who registered the DOI, in this case Royal Meteorological Society, should update the URL linking to the DOI. DOI itself is persistent.
+>> - If the journal ceases to exist, one can still access the metadata assigned to this DOI. With this metadata, e.g. the author list or linked publications, it may still be possible to retrieve this paper from other resources.
+> {: .solution}
 {: .challenge}
 
 Which data need a PID?
