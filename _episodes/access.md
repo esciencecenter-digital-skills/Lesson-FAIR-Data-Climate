@@ -240,8 +240,8 @@ Next to large-scale general-use repositories such as [Zenodo](https://zenodo.org
 >>     <tr>
 >>       <td>11. Is it easy to upload data to this repository?</td>
 >>       <td>🥳Yes. Although one should use a Zenodo account, or an GitHub account, or an ORCID account.</td>
->>       <td>🥳Yes. Although registering an account is required.</td>
->>       <td>😢Not possible to upload.</td>
+>>       <td>🤔In principle yes, but the procedures are complicated. To upload data to a certain project, one need a manual approval on joining that project. </td>
+>>       <td>🤔In principle yes, but the procedures are complicated. One needs to contact Copernicus Climate Change Service (C3S) and fill in a confirmation form first.</td>
 >>     </tr>
 >>   </tbody>
 >> </table>
