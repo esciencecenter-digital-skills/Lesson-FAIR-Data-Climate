@@ -64,15 +64,17 @@ textual, video/audio, and image/figure.
 Some of them are more in line with the FAIR principles than some others.
 Here are some recommended formats for different types:
 
-- Geospatial data: [NetCDF](https://www.unidata.ucar.edu/software/netcdf/docs/netcdf_data_model.html)
-- Tabular data: [SQLite](https://www.sqlite.org/fileformat.html)
-- Textual data: [Markdown](https://daringfireball.net/projects/markdown/)
-- Image data: [TIFF 6.0 uncompressed](https://www.adobe.io/content/dam/udp/en/open/standards/tiff/TIFF6.pdf)
-- Audio data: [Lossless Audio Codec (FLAC)](https://xiph.org/flac/)
-- Video data: [MPEG-4](https://en.wikipedia.org/wiki/MPEG-4)
-- Documentation: [Microsoft Word](https://en.wikipedia.org/wiki/Microsoft_Word) or [PDF](https://www.iso.org/standard/63534.html)
-- Papers & Articles: [LaTeX](https://www.latex-project.org/)
-- Storyline Definitions: [JSON](https://www.json.org/json-en.html)
+| **Data type**        |   **Data format**                    |
+|:---------------------|:-------------------------------------|
+|Geospatial data | [NetCDF](https://www.unidata.ucar.edu/software/netcdf/docs/netcdf_data_model.html)|
+|Tabular data | [SQLite](https://www.sqlite.org/fileformat.html)|
+|Textual data |[Markdown](https://daringfireball.net/projects/markdown/)|
+|Image data |[TIFF 6.0 uncompressed](https://www.adobe.io/content/dam/udp/en/open/standards/tiff/TIFF6.pdf)|
+|Audio data |[Lossless Audio Codec (FLAC)](https://xiph.org/flac/)|
+|Video data |[MPEG-4](https://en.wikipedia.org/wiki/MPEG-4)|
+|Documentation |[Microsoft Word](https://en.wikipedia.org/wiki/Microsoft_Word) or [PDF](https://www.iso.org/standard/63534.html)|
+|Papers & Articles |[LaTeX](https://www.latex-project.org/)|
+|Storyline Definitions |[JSON](https://www.json.org/json-en.html)|
 
 > ## Other data types
 >
@@ -81,6 +83,7 @@ Here are some recommended formats for different types:
 >
 > - What are the other data formats for the type that you selected?
 > - Which of those formats are common in your community?
+> - Discuss some of the advantages and disadvantages of those formats.
 {: .discussion}
 
 > ## Data Management Plan
