@@ -95,15 +95,19 @@ In the previous sections, we learned that different file formats have different 
 The purpose of a file should help determine which file format to choose.
 In the example of creating tabular data using spreadsheet software,
 there is no guarantee that the tabular data can be used or displayed in the future.
-Because the software can become obsolete or only support a specific version of formats.
+This is because the software can become obsolete or only support a specific version of formats.
 
-It is good to plan in the beginning of your project, what file formats to use for each purpose:
+It is good to plan at the beginning of your project, what file formats to use for each purpose:
 
 - data collection / processing / analysis,
 - reuse: the longer you want to use the data, the more you have to use open, standard and
 well-documented file formats to avoid obsolescence.
 - preservation: many journals, archives and data repositories require that data are uploaded in certain file formats.
 Therefore, you may have to keep some data files in multiple formats.
+
+![format_support_matrix]({{ page.root }}/fig/format_support_matrix.png)
+If we store the data to a more open or widely supported format,
+it will have the greatest re-usability in the future.
 
 > ## Non/proprietary format
 >
