@@ -136,37 +136,26 @@ Therefore, you may have to keep some data files in multiple formats.
 
 In climate-related domains e.g. weather and climate science, earth observation science, or hydrology,
 data can be in many types and for different purposes.
-In this section, we will explore some common data formats.
+In this section, we will introduce some common and acceptable data formats.
 
 ### [NetCDF](https://www.unidata.ucar.edu/software/netcdf/docs/netcdf_data_model.html):
 
-It was originally developed for the Earth science community, but it can be used for **many kinds of data**.
-NetCDF views the world of scientific data in the same way that a geo-scientist might:
 ![NetCDF]({{ page.root }}/fig/netcdf-classic-uml.png)
 
-- There are various quantities such as temperature or elevation
+NetCDF was originally developed for the Earth science community, but it can be used for **many kinds of data**.
+It views the world of scientific data in the same way that a geo-scientist might:
+there are various quantities such as temperature or elevation
 located at points at particular coordinates in space and time.
-
-- The quantities (here temperature or elevation) are stored as netCDF variables.
-Variables are N-dimensional arrays of **data**, with a name.
-
-- The coordinates information are stored as netCDF dimensions.
-Dimensions have a length and a name.
-
-- A scientist also wants to store supporting information or **metadata**, such as the units, or
-some information about how the data were produced.
-The metadata is stored as netCDF attributes that are always single values or one-dimensional arrays.
+The quantities (here temperature or elevation) are stored as netCDF variables
+whereas coordinates information is stored as netCDF dimensions.
+The **metadata**, such as the units, is stored as netCDF attributes.
 
 ### [GRIB](https://www.wmo.int/pages/prog/www/DPS/FM92-GRIB2-11-2003.pdf):
 
 GRIB stands for general regularly-distributed information in binary.
-It is **commonly used** by the [World Meteorological Organization](https://public.wmo.int/en) (WMO) for weather model data.
-
-- The representation of the data in the GRIB format is **independent of** any particular machine representation.
-
-- GRIB messages contain the **data** and **metadata**.
-
-- GRIB is used operationally worldwide by most meteorological centers, for Numerical Weather Prediction output.
+It is **commonly used** by the [World Meteorological Organization](https://public.wmo.int/en)
+(WMO) for weather model data. It is also used operationally worldwide by most meteorological centers,
+for Numerical Weather Prediction output.
 Some of the second-generation GRIB are used in Eumetcast of Meteosat Second Generation.
 Another example is the North American Mesoscale model.
 
@@ -174,41 +163,30 @@ Another example is the North American Mesoscale model.
 
 GeoTIFF is a standard image file format to describe and store raster image data with geographic information.
 So it can be used by Geographic Information System (GIS) applications.
-
-- GeoTIFF format is suitable for a **wide range of applications worldwide**.
+It is suitable for a **wide range of applications worldwide**.
 For example, satellite imaging systems, scanned aerial photography, scanned maps,
 digital elevation models, or as a result of geographic analyses.
-
-- It is **independent** of a computer’s architecture, operating system, and graphics hardware.
-
-- GeoTIFF format has a three-level hierarchy: file header, image file directories, and **data**.
-
-- GeoTIFF format stores a **broad range of georeferencing information**, catering to geographic
-as well as projected coordinate systems.
-
-- As an example, GeoTIFF 1.1 is an approved NASA Earth Science Data Systems standard
-(see [Standards and Practices](https://earthdata.nasa.gov/esdis/eso/standards-and-references)).
+As an example, GeoTIFF 1.1 is an approved NASA Earth Science Data Systems standard
+(see [NASA Standards and Practices](https://earthdata.nasa.gov/esdis/eso/standards-and-references)).
 
 ### [HDF5](https://www.hdfgroup.org/solutions/hdf5/):
 
 The Hierarchical Data Format Version 5, (HDF5) implements a model for managing and storing data,
-developed by the National Center for Supercomputing Applications (NCSA):
-![HDF5]({{ page.root }}/fig/hdf5_data_model.png)
-
-- HDF5 is a **general-purpose**, **machine-independent** standard for storing scientific data in files.
-
-- HDF5 files are organized in a hierarchical structure, with two primary structures: groups and datasets.
-
-- HDF5 dataset: a multidimensional array of **data** elements, together with supporting **metadata**.
-
-- There are four essential classes of metadata: name, datatype, dataspace, and storage layout.
-
-- An HDF5 structure is **self-describing**, allowing an application to interpret
+developed by the [National Center for Supercomputing Applications](http://www.ncsa.illinois.edu/) (NCSA).
+HDF5 is a **general-purpose**, **machine-independent** standard for storing scientific data in files.
+An HDF5 structure is **self-describing**, allowing an application to interpret
 the structure and contents of a file without any outside information.
-
-- As an example, NASA's Earth Observing System, the primary data repository for
-understanding global climate change, uses HDF5,
+As an example, NASA's Earth Observing System, the primary data repository for
+understanding global climate change uses HDF5,
 (for more information see [this page](https://www.loc.gov/preservation/digital/formats/fdd/fdd000229.shtml)).
+
+> ## Other formats for geospatial data
+>
+> There are many other formats to store geospatial data like
+> [SHP](https://en.wikipedia.org/wiki/Shapefile)(shapefiles) for vector data,
+> [DBF](https://en.wikipedia.org/wiki/.dbf)(database file), and
+> [NetCDF ZARR Data](https://www.unidata.ucar.edu/blogs/developer/en/entry/netcdf-zarr-data-model-specification), etc.
+{: .callout}
 
 > ## While you work ...
 >
@@ -226,15 +204,7 @@ understanding global climate change, uses HDF5,
 > {: .solution}
 {: .challenge}
 
-> ## Other formats for geospatial data
->
-> There are many other formats to store geospatial data like
-> [SHP](https://en.wikipedia.org/wiki/Shapefile)(shapefiles) for vector data,
-> [DBF](https://en.wikipedia.org/wiki/.dbf)(database file), and
-> [NetCDF ZARR Data](https://www.unidata.ucar.edu/blogs/developer/en/entry/netcdf-zarr-data-model-specification), etc.
-{: .callout}
-
-> ## Recommendation about data format
+> ## Select a data format
 >
 > Let's have a look at case-study that you selected in introduction of this tutorial,
 > [here]({{ page.root }}{% link _episodes/introduction.md %}).
