@@ -64,17 +64,53 @@ textual, video/audio, and image/figure.
 Some of them are more in line with the FAIR principles than some others.
 Here are some recommended formats for different types:
 
-| **Data type**        |   **Data format**                    |
-|:---------------------|:-------------------------------------|
-|Geospatial data | [NetCDF](https://www.unidata.ucar.edu/software/netcdf/docs/netcdf_data_model.html)|
-|Tabular data | [SQLite](https://www.sqlite.org/fileformat.html)|
-|Textual data |[Markdown](https://daringfireball.net/projects/markdown/)|
-|Image data |[TIFF 6.0 uncompressed](https://www.adobe.io/content/dam/udp/en/open/standards/tiff/TIFF6.pdf)|
-|Audio data |[Lossless Audio Codec (FLAC)](https://xiph.org/flac/)|
-|Video data |[MPEG-4](https://en.wikipedia.org/wiki/MPEG-4)|
-|Documentation |[Microsoft Word](https://en.wikipedia.org/wiki/Microsoft_Word) or [PDF](https://www.iso.org/standard/63534.html)|
-|Papers & Articles |[LaTeX](https://www.latex-project.org/)|
-|Storyline Definitions |[JSON](https://www.json.org/json-en.html)|
+<table style="width:40%">
+  <thead>
+  <tr>
+      <th>Data type</th>
+      <th>Data format</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Geospatial data</td>
+      <td><a href="https://www.unidata.ucar.edu/software/netcdf/docs/netcdf_data_model.html">NetCDF</a></td>
+    </tr>
+    <tr>
+      <td>Tabular data</td>
+      <td><a href="https://www.sqlite.org/fileformat.html">SQLite</a></td>
+    </tr>
+    <tr>
+      <td>Textual data</td>
+      <td><a href="https://daringfireball.net/projects/markdown/">Markdown</a></td>
+    </tr>
+    <tr>
+      <td>Image data</td>
+      <td><a href="https://www.adobe.io/content/dam/udp/en/open/standards/tiff/TIFF6.pdf">TIFF 6.0 uncompressed</a></td>
+    </tr>
+    <tr>
+      <td>Audio data</td>
+      <td><a href="https://xiph.org/flac/">Lossless Audio Codec (FLAC)</a></td>
+    </tr>
+    <tr>
+      <td>Video data</td>
+      <td><a href="https://en.wikipedia.org/wiki/MPEG-4">MPEG-4</a></td>
+    </tr>
+    <tr>
+      <td>Documentation</td>
+      <td><a href="https://en.wikipedia.org/wiki/Microsoft_Word">Microsoft Word</a>
+      or <a href="https://www.iso.org/standard/63534.html">PDF</a></td>
+    </tr>
+    <tr>
+      <td>Papers & Articles</td>
+      <td><a href="https://www.latex-project.org/">LaTeX</a></td>
+    </tr>
+    <tr>
+      <td>Storyline Definitions</td>
+      <td><a href="https://www.json.org/json-en.html">JSON</a></td>
+    </tr>
+  </tbody>
+</table>
 
 > ## Other data types
 >
