@@ -57,6 +57,20 @@ Tabular data have specific properties that are better supported by the spreadshe
 >
 {: .discussion}
 
+> ## FAIR principles
+>
+> Let's have a look at [FAIR principles](https://www.go-fair.org/fair-principles/).
+> According to the principles, how does a file format improve FAIRness of research data?
+>
+>> ## Solution
+>>
+>> - I1:(meta) data use a formal, accessible, shared, and broadly applicable language for knowledge representation.
+>> For example, if data is provided in commonly understood and preferably open formats.
+>>
+>> - R1.3: (meta)data meet domain-relevant community standards e.g. those for data formats.
+> {: .solution}
+{: .challenge}
+
 ## Recommended formats for different types
 
 There are several data types like geospatial, tabular, storyline, documentation and paper,
@@ -117,7 +131,7 @@ Here are some recommended formats for different types:
 > Have a look at the list of the recommended formats for different types (mentioned above)
 > and pick a data type.
 >
-> - What are the other data formats for the type that you selected?
+> - What are the other formats for the type that you selected?
 > - Which of those formats are common in your community?
 > - Discuss some of the advantages and disadvantages of those formats.
 {: .discussion}
@@ -134,7 +148,7 @@ In the previous sections, we learned that different file formats have different 
 The purpose of a file should help determine which file format to choose.
 In the example of creating tabular data using spreadsheet software,
 there is no guarantee that the tabular data can be used or displayed in the future.
-This is because the software can become obsolete or only support a specific version of formats.
+Because the software can become obsolete or only support a specific version of formats.
 
 It is good to plan at the beginning of your project, what file formats to use for each purpose:
 
@@ -161,17 +175,18 @@ it will have the greatest re-usability in the future.
 >- The open format is a file format that is published and free to be used by everybody.
 {: .callout}
 
-> ## FAIR principles
+> ## Good practice for format selection
 >
-> Let's have a look at [FAIR principles](https://www.go-fair.org/fair-principles/).
-> According to the principles, how does a file format improve FAIRness of research data?
+> We want to create a checklist for choosing a format that improves the FAIRness of the data.
+> What items should be included?
 >
 >> ## Solution
 >>
->> - I1:(meta) data use a formal, accessible, shared, and broadly applicable language for knowledge representation.
->> For example, if data is provided in commonly understood and preferably open formats.
->>
->> - R1.3: (meta)data meet domain-relevant community standards e.g. those for data formats.
+>> - non-proprietary
+>> - open or widely supported format
+>> - standard and well-documented
+>> - supports relevant metadata
+>> - commonly used by your research community
 > {: .solution}
 {: .challenge}
 
@@ -220,8 +235,8 @@ HDF5 is a **general-purpose**, **machine-independent** standard for storing scie
 An HDF5 structure is **self-describing**, allowing an application to interpret
 the structure and contents of a file without any outside information.
 As an example, NASA's Earth Observing System, the primary data repository for
-understanding global climate change uses HDF5,
-(for more information see [this page](https://www.loc.gov/preservation/digital/formats/fdd/fdd000229.shtml)).
+understanding global climate change uses HDF5, for more information
+see [this page](https://www.loc.gov/preservation/digital/formats/fdd/fdd000229.shtml).
 
 > ## Other formats for geospatial data
 >
@@ -231,29 +246,12 @@ understanding global climate change uses HDF5,
 > [NetCDF ZARR Data](https://www.unidata.ucar.edu/blogs/developer/en/entry/netcdf-zarr-data-model-specification), etc.
 {: .callout}
 
-> ## While you work ...
->
-> Imagine that you work with some geospatial data for a project in your community.
-> You choose a format.
->
-> How to make sure that the file format you choose improves the FAIRness of your data?
->
->> ## Solution
->>
->> You need to check if:
->>
->> - The file format can store relevant metadata related to the data.
->> - The file format is the standard in your community, and therefore interoperable and reusable for anyone.
-> {: .solution}
-{: .challenge}
-
 > ## Select a data format
 >
 > Let's have a look at case-study that you selected in introduction of this tutorial,
 > [here]({{ page.root }}{% link _episodes/introduction.md %}).
 >
 > Assume that the authors want to publish their data. What suggestions would you give the authors for data format?
->
 {: .discussion}
 
 {% include links.md %}
