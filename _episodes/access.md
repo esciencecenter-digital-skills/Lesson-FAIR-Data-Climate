@@ -30,7 +30,16 @@ Accessibility addresses the *A* in the FAIR principles. Once the user finds the 
 {: .checklist}
 
 > ## Accessible does not mean open without constraint
-> Accessibility means that the human or machine is provided - through metadata - with the precise conditions by which the data are accessible and that the mechanisms and technical protocols for data access are implemented such that the data and/or metadata can be accessed and used at scale, by machines, across the web.
+>
+> Accessibility means that the human or machine is provided - through metadata -
+> with the precise conditions by which the data are accessible and that the
+> mechanisms and technical protocols for data access are implemented such that
+> the data and/or metadata can be accessed and used at scale, by machines,
+> across the web.
+>
+> Please note that access to data does not mean [open
+data](https://en.wikipedia.org/wiki/Open_data) or [open access
+(OA)](https://en.wikipedia.org/wiki/Open_access).
 {: .callout}
 
 ## Access to climate data
