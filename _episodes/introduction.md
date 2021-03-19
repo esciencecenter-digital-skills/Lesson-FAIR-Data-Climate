@@ -5,6 +5,7 @@ exercises: 10
 questions:
 - "What are the FAIR principles?"
 - "Why should I care to be FAIR?"
+- "How do I get started?"
 
 objectives:
 - "Find relevant information on FAIR data requirements"
@@ -16,7 +17,7 @@ keypoints:
   Interoperable, and Reusable."
 - "FAIR data enhance impact, reuse, and transparancy of research."
 - "FAIRification is an ongoing effort accross many different fields."
-- "FAIR principles are a set of guiding principles, not rules or standards." 
+- "FAIR principles are a set of guiding principles, not rules or standards."
 ---
 
 ## What is FAIR?
@@ -59,8 +60,8 @@ CC-BY licence. Source: <https://doi.org/10.5281/zenodo.3695300>*
 > ## What's in it for you?
 >
 > Many funders nowadays require from researchers data management plans which
-> adhere to the FAIR principles. A great step forward, but if 
-> we are going to spend the time and effort, we prefer to find some intrinsic 
+> adhere to the FAIR principles. A great step forward, but if
+> we are going to spend the time and effort, we prefer to find some intrinsic
 > motivation.
 >
 > Have a look at the original [Nature paper](https://doi.org/10.1038/sdata.2016.18)
