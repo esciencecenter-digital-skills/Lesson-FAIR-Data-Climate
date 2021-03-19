@@ -146,11 +146,16 @@ Next to large-scale general-use repositories such as [Zenodo](https://zenodo.org
 > {: .solution}
 {: .challenge}
 
-> ## Data repositories where you can share your research data
+## Data repositories
+
+Many institutions and organisations have data repositories, where we can publish
+or preserve our reaserch data. We need to think about _if_ and _how_ and _where_
+we want to share our data. Please pay attention to legal basis and protocols for
+access to sensitive or personal data.
+
+> ## Sharing your research data
 >
-> Many institutions and organisations have data repositories, where we can
-> publish or preserve our reaserch data. We need to think about _if_ and _how_
-> and _where_ we want to share our data. Let's examine a couple of different
+> Let's examine a couple of different
 > data repositories such as [Zenodo](https://zenodo.org/),
 > [ESGF](https://esgf.llnl.gov/), [CDS](https://cds.climate.copernicus.eu).
 > Answer the following questions for the repository (maybe datasets in the
