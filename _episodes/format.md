@@ -60,22 +60,14 @@ than a word processor.
 >
 {: .discussion}
 
-> ## FAIR principles
+> ## This is what [go-FAIR.org](https://go-fair.org/principles) has to say about Format
 >
-> Let's have a look at [FAIR
-> principles](https://www.go-fair.org/fair-principles/). According to the
-> principles, how does a file format improve FAIRness of research data?
->
->> ## Solution
->>
->> - I1:(meta) data use a formal, accessible, shared, and broadly applicable
->>   language for knowledge representation. For example, if data is provided in
->>   commonly understood and preferably open formats.
->>
->> - R1.3: (meta)data meet domain-relevant community standards e.g. those for
+> - I1:(meta) data use a formal, accessible, shared, and broadly applicable
+>  language for knowledge representation. For example, if data is provided in
+>  commonly understood and preferably open formats.
+> - R1.3: (meta)data meet domain-relevant community standards e.g. those for
 >   data formats.
-> {: .solution}
-{: .challenge}
+{: .checklist}
 
 ## Recommended formats for different types
 
