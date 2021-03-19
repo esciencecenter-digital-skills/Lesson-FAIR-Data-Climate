@@ -98,26 +98,23 @@ CC-BY licence. Source: <https://doi.org/10.5281/zenodo.3695300>*
 > - You can create more impact if it's easier for others to use your data
 > - ...
 >
-> For more information, you can have a look at the original [Nature paper](https://doi.org/10.1038/sdata.2016.18)
-> on FAIR Data, the [GO-FAIR initiative](https://www.go-fair.org/fair-principles/),
-> and the Danish tutorial [howtofair.dk](https://www.howtofair.dk/why-fair/).
->
 {: .checklist}
 
-## How FAIR are my data?
-_AK: The title was a bit misleading; there isn't much about FAIRification process itself._
 
-It is important to realize that the FAIR principles are not rules or standards.
-They are a set of guiding principles, but their implementation may differ per
-field or even per project. Since the principles have originally been established
-only in 2016, a comprehensive set of specific requirements for FAIR data is
-lacking for most fields.
+## How do I get started?
 
-In this tutorial, we will therefore interpret "FAIRness" as a continous scale
-(less FAIR vs. more FAIR) rather than a binary classification (FAIR vs. not FAIR) (Mons et al., 2017).
-Some steps can already be taken today, whereas other steps require the
-development of standards across a scientific domain, or even changes to the funding model of projects.
-We will aim to identify those quick wins and to facilitate the discussion on more involved developments.
+In this tutorial we will discuss the following elements that can help you
+get started:
+
+- Documentation: helps to make data reusable, especially for humans
+- Metadata:
+- Data formats:
+- Data access: we will discuss different aspects of accessibility and data repositories
+- Identifiers:
+- Licences:
+
+Where appropriate, we will point out existing standards for climate data.
+
 
 > ## Select your case study for the tutorial
 >
