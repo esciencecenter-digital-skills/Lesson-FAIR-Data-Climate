@@ -48,6 +48,17 @@ Although FAIRness in climate science is advancing and some clearly accessible re
 
 Next to large-scale general-use repositories such as [Zenodo](https://zenodo.org/), there are also several domain-specific repositories. You may be familiar with [ESGF](https://esgf.llnl.gov/), [CDS](https://cds.climate.copernicus.eu), or [Climate4Impact](https://climate4impact.eu).
 
+> ## Example: access to forecasts
+>
+> Look at [this page](https://www.ecmwf.int/en/forecasts/accessing-forecasts)
+> that shows how to access ECMWF forecast datasets and charts. Discuss the
+> following questions:
+>
+> - Who are the data available for?
+> - What are the access conditions?
+>
+{: .discussion}
+
 > ## Stages of accessibility
 >
 > You submitted a paper, and the reviewer asks you to make your data accessible.
