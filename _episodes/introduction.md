@@ -8,9 +8,9 @@ questions:
 - "How do I get started?"
 
 objectives:
-- "Find relevant information on FAIR data requirements"
-- "Express a vision on reproducible research"
-- "Recognize possibilities for making a dataset more FAIR"
+- "Identify the FAIR principles"
+- "Recognize the importance of moving towards FAIR in research"
+- "Relate the components of this lesson to the FAIR principles"
 
 keypoints:
 - "The FAIR principles state that data should be Findable, Accessible,
