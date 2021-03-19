@@ -4,14 +4,16 @@ teaching: 10
 exercises: 15
 questions:
 - "What is meant by 'accessibility'?"
-- "What are relevant data repositories in climate science?"
-- "How to choose a data repository?"
+- "How do I provide access to my data?"
+- "How do I determine who my data is available for?"
 objectives:
-- "Identify suitable repositories to make your research data acessible."
-- "Plan access to the data in a data management plan."
+- "Make your reaserch data accessible."
+- "Identify relevant data repositories in climate science."
+- "Choose a suitable repository for your research data."
 keypoints:
 - "Accessible does not mean open without constraint."
 - "Metadata can still be accessible, even if the data itself is not (anymore)."
+- "Plan access to the data in a data management plan."
 - "EU-funded projects are expected to make generated data accessible to the public."
 ---
 
