@@ -50,16 +50,23 @@ Next to large-scale general-use repositories such as [Zenodo](https://zenodo.org
 
 > ## Stages of accessibility
 >
-> You submitted a paper, and the reviewer asks you to make your data accessible. You consider your options,
+> You submitted a paper, and the reviewer asks you to make your data accessible.
+> Organize the following options from the most to the least FAIR way. Then,
+> reflect and discuss why you chose that particular order.
 >
-> 1. You make a note in your paper that data can be requested by sending you an email
+> 1. You make a note in your paper that data can be requested by sending you an
+>    email
 > 2. You provide the data as supplementary information to your paper
-> 3. You upload the data to some cloud storage and put a shareable link in your paper
-> 4. You upload the data to a university drive and request a DOI from the library
+> 3. You upload the data to some cloud storage and put a shareable link in your
+>    paper
+> 4. You upload the data to a university drive and request a DOI from the
+>    library
 > 5. You upload the data to a generic repository such as zenodo
-> 6. You upload the data to a domain-specific repository such as [Hydroshare](https://www.hydroshare.org/)
+> 6. You upload the data to a domain-specific repository such as
+>    [Hydroshare](https://www.hydroshare.org/)
 >
-> Describe which of these are adhering to the [FAIR principles](https://www.go-fair.org/fair-principles/), focusing on the findability and accessibility criteria.
+> Tips: focus on the findability and accessibility criteria in the [FAIR
+> principles](https://www.go-fair.org/fair-principles/).
 >
 >> ## Solution
 >> <table style="width:50%">
