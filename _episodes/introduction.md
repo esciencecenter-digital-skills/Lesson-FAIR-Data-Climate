@@ -61,6 +61,19 @@ This is particularly relevant for working with and discovering new data.
 image was created by Scriberia for The Turing Way community and is used under a
 CC-BY licence. Source: <https://doi.org/10.5281/zenodo.3695300>*
 
+> ## Discuss the different principles
+>
+> Read the summary table of the 15 FAIR principles in [Wilkinson et
+> al](https://doi.org/10.1038/sdata.2016.18). After reading this, asnwer the
+> following questions:
+>
+> - Are there any terms that you are unfamiliar with
+> - Are there any principles that you could implement right away?
+> - What do you think would be the most challenging principle to implement?
+>
+{: .discussion}
+
+
 ## Why FAIR?
 
 The original authors of the FAIR principles had a strong focus on enhancing
