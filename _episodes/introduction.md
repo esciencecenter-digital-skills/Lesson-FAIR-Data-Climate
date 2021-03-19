@@ -116,24 +116,18 @@ get started:
 Where appropriate, we will point out existing standards for climate data.
 
 
-> ## Select your case study for the tutorial
+> ## Evaluate one of your own datasets
 >
-> In the tutorial we will be using real use cases to assess the FAIRness of a
-> dataset and identify possibilities for improvement. Take a few minutes to find
-> a suitable use cases. This may be one of your own projects or (recent) papers,
-> or you may select another study you find interesting.
+> Pick one dataset that you've created or worked with recently, and answer the
+> following questions:
 >
-> Write down:
+> - If somebody get this data set from you, would be able to understand the
+>   structure and content without asking you?
+> - Do you know who has access to this data set? Could somebody easily have access
+>   to this data set? How?
+> - Does this data set needs a proprietary software to be used?
+> - Does this data set has a persistent identifier or usage licence?
 >
-> - Any input dataset(s) that were used for this study
-> - The methods, tools or models that were applied to these data
-> - A short description of the output data that was generated
-> - Additional information that you find relevant (e.g. the scientific domain,
->   project, journal, community)
->
-> If you can't find a suitable project, you may use [the example paper by
-> Glotter et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4066535/) (which
-> was randomly selected by the authors of this tutorial).
 {: .challenge}
 
 ## Further reading
