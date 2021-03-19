@@ -166,7 +166,7 @@ greatest re-usability in the future.
 
 > ## Non/proprietary format
 >
-> File formats may be either proprietary or non-proprietary(open or free):
+> File formats may be either proprietary or non-proprietary (open or free):
 >
 >- The proprietary format is owned by a company, organization or individual.
 >   Their specifications are usually not publicly available and the risk of
