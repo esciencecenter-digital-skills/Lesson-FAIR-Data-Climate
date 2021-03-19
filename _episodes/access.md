@@ -46,8 +46,6 @@ data](https://en.wikipedia.org/wiki/Open_data) or [open access
 
 Although FAIRness in climate science is advancing and some clearly accessible repositories exist, it is still also common practice to only make a dataset accessible via the project website. Because projects do not last for ever, some of these websites are not maintained, resulting in inaccessible datasets.
 
-Next to large-scale general-use repositories such as [Zenodo](https://zenodo.org/), there are also several domain-specific repositories. You may be familiar with [ESGF](https://esgf.llnl.gov/), [CDS](https://cds.climate.copernicus.eu), or [Climate4Impact](https://climate4impact.eu).
-
 > ## Example: access to forecasts
 >
 > Look at [this page](https://www.ecmwf.int/en/forecasts/accessing-forecasts)
@@ -179,6 +177,12 @@ Many institutions and organisations have data repositories, where we can publish
 or preserve our reaserch data. We need to think about _if_ and _how_ and _where_
 we want to share our data. Please pay attention to legal basis and protocols for
 access to sensitive or personal data.
+
+Next to large-scale general-use repositories such as
+[Zenodo](https://zenodo.org/), there are also several domain-specific
+repositories. You may be familiar with [ESGF](https://esgf.llnl.gov/),
+[CDS](https://cds.climate.copernicus.eu), or
+[Climate4Impact](https://climate4impact.eu).
 
 > ## Sharing your research data
 >
