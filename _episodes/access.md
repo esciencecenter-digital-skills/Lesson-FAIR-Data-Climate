@@ -255,16 +255,21 @@ Next to large-scale general-use repositories such as [Zenodo](https://zenodo.org
 > {: .solution}
 {: .challenge}
 
-> ## What about your data?
+> ## Plan for access to data
 >
-> When it comes to making data accessible, there are some easy steps
-> that can by applied by any researcher to their own data. Some steps, however,
-> have to be developed accross a scientific domain. Particularly, the
-> establishment of domain-specific data repositories.
+> When it comes to making data accessible, there are some easy steps that can be
+> applied by any researcher to their own data. Some steps, however, have to be
+> developed across a scientific domain for example, the establishment of
+> domain-specific data repositories. The accesibility is determined
+> in a data management plan as data is created. We should agree with our
+> colleagues on standard procedures and document data access. Discuss the
+> following questions:
 >
 > - What is the status in your specific (sub-)domain?
 > - Are there suitable repositories?
-> - Are they easy to use? What are the advantages/disadvantage?
+> - Who are the data available for?
+> - What are the access conditions?
+> - How are the data backed up?
 >
 {: .discussion}
 
