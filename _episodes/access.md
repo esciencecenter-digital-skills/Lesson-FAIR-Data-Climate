@@ -31,7 +31,7 @@ Accessibility addresses the *A* in the FAIR principles. Once the user finds the 
 > Accessibility means that the human or machine is provided - through metadata - with the precise conditions by which the data are accessible and that the mechanisms and technical protocols for data access are implemented such that the data and/or metadata can be accessed and used at scale, by machines, across the web.
 {: .callout}
 
-## FAIRness in climate science
+## Access to climate data
 
 Although FAIRness in climate science is advancing and some clearly accessible repositories exist, it is still also common practice to only make a dataset accessible via the project website. Because projects do not last for ever, some of these websites are not maintained, resulting in inaccessible datasets.
 
@@ -193,11 +193,11 @@ Next to large-scale general-use repositories such as [Zenodo](https://zenodo.org
 >>     <tr>
 >>       <td>4. Does it allow for authentication?</td>
 >>       <td>🙂A light authentication mechanism, such as a token (via OAuth 2.0 access token), is acceptable in some certain cases, e.g. high-traffic access. This authentication is acceptable as long as there is a totally open/anonymous route too.</td>
->>       <td>🙂ESGF uses the OpenID and OAuth2 authentication system. 
+>>       <td>🙂ESGF uses the OpenID and OAuth2 authentication system.
              Login credentials are required.
-             An open source <a href="https://github.com/ESGF/esgf-auth">authentication client</a> 
+             An open source <a href="https://github.com/ESGF/esgf-auth">authentication client</a>
              is also available.</td>
->>       <td>🙂CDS uses its <a href="https://cds.climate.copernicus.eu/api-how-to">own API and authentication key</a>. 
+>>       <td>🙂CDS uses its <a href="https://cds.climate.copernicus.eu/api-how-to">own API and authentication key</a>.
              Login credentials are required.
              The <a href="https://github.com/ecmwf/cdsapi">API</a> is open source.</td>
 >>     </tr>
