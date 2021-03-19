@@ -20,12 +20,19 @@ keypoints:
 
 ## What is access to data?
 
-Accessibility addresses the *A* in the FAIR principles. Once the user finds the required data, she/he needs to know how can they be accessed, possibly including authentication and authorisation. Accessible data objects can be obtained by humans and machines upon appropriate authorisation and through a well-defined and universally implementable protocol. In other words, anyone with a computer and an internet connection should be able to access at least the metadata.
+Accessibility addresses the *A* in the FAIR principles. Once the user finds the
+required data, she/he needs to know how they can be accessed, possibly including
+authentication and authorisation. Accessible data objects can be obtained by
+humans and machines upon appropriate authorisation and through a well-defined
+and universally implementable protocol. In other words, anyone with a computer
+and an internet connection should be able to access at least the metadata.
 
 > ## This is what [go-FAIR.org](https://go-fair.org/principles) has to say about Accessible
-> - A1. (Meta)data are retrievable by their identifier using a standardised communications protocol
+> - A1. (Meta)data are retrievable by their identifier using a standardised
+>   communications protocol
 > - A1.1 The protocol is open, free, and universally implementable
-> - A1.2 The protocol allows for an authentication and authorisation procedure, where necessary
+> - A1.2 The protocol allows for an authentication and authorisation procedure,
+>   where necessary
 > - A2. Metadata are accessible, even when the data are no longer available
 {: .checklist}
 
@@ -44,7 +51,10 @@ data](https://en.wikipedia.org/wiki/Open_data) or [open access
 
 ## Access to climate data
 
-Although FAIRness in climate science is advancing and some clearly accessible repositories exist, it is still also common practice to only make a dataset accessible via the project website. Because projects do not last for ever, some of these websites are not maintained, resulting in inaccessible datasets.
+Although FAIRness in climate science is advancing and some clearly accessible
+repositories exist, it is still also common practice to only make a dataset
+accessible via the project website. Because projects do not last for ever, some
+of these websites are not maintained, resulting in inaccessible datasets.
 
 > ## Example: access to forecasts
 >
