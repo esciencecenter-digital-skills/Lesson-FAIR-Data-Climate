@@ -63,9 +63,9 @@ CC-BY licence. Source: <https://doi.org/10.5281/zenodo.3695300>*
 
 > ## Discuss the different principles
 >
-> Read the summary table of the 15 FAIR principles in [Wilkinson et
-> al](https://doi.org/10.1038/sdata.2016.18). After reading this, asnwer the
-> following questions:
+> Read the summary table of the 15 FAIR principles in [Wilkinson *et
+> al.*](https://doi.org/10.1038/sdata.2016.18) (See "Box 2: The FAIR Guiding
+> Principles"). After reading this, asnwer the following questions:
 >
 > - Are there any terms that you are unfamiliar with
 > - Are there any principles that you could implement right away?
@@ -89,16 +89,20 @@ CC-BY licence. Source: <https://doi.org/10.5281/zenodo.3695300>*
 
 > ## What's in it for you?
 >
-> Many funders nowadays require from researchers data management plans which
-> adhere to the FAIR principles. A great step forward, but if
-> we are going to spend the time and effort, we prefer to find some intrinsic
-> motivation.
+> FAIR data sounds like a lot of work. Is it worth it? Here are some of the benefits:
 >
-> Have a look at the original [Nature paper](https://doi.org/10.1038/sdata.2016.18)
+> - Funder requirements
+> - It makes your work more visible
+> - Increase the reproducibility of your work
+> - If other can use it easily, you will get cited more often
+> - You can create more impact if it's easier for others to use your data
+> - ...
+>
+> For more information, you can have a look at the original [Nature paper](https://doi.org/10.1038/sdata.2016.18)
 > on FAIR Data, the [GO-FAIR initiative](https://www.go-fair.org/fair-principles/),
 > and the Danish tutorial [howtofair.dk](https://www.howtofair.dk/why-fair/).
-> What are the main reasons for *you* to (not) embrace the FAIR principles?
-{: .discussion}
+>
+{: .checklist}
 
 ## How FAIR are my data?
 _AK: The title was a bit misleading; there isn't much about FAIRification process itself._
