@@ -49,8 +49,8 @@ This is particularly relevant for working with and discovering new data.
 >
 > - Open data: FAIR data does not necessarily mean openly available. For
 >   example, some data cannot be shared openly because of privacy
->   considerations. As a rule of thumb, data should be *"as open as possible, as closed as
->   necessary."*
+>   considerations. As a rule of thumb, data should be *"as open as possible, as
+>   closed as necessary."*
 >
 > - Tied to a particular technology or tool. There might be different tools that
 >   enable FAIR data within different disciplines or research workflows.
@@ -65,7 +65,7 @@ CC-BY licence. Source: <https://doi.org/10.5281/zenodo.3695300>*
 >
 > Read the summary table of the 15 FAIR principles in [Wilkinson *et
 > al.*](https://doi.org/10.1038/sdata.2016.18) (See "Box 2: The FAIR Guiding
-> Principles"). After reading this, asnwer the following questions:
+> Principles"). After reading this, answer the following questions:
 >
 > - Are there any terms that you are unfamiliar with
 > - Are there any principles that you could implement right away?
@@ -94,39 +94,50 @@ CC-BY licence. Source: <https://doi.org/10.5281/zenodo.3695300>*
 > - Funder requirements
 > - It makes your work more visible
 > - Increase the reproducibility of your work
-> - If other can use it easily, you will get cited more often
+> - If others can use it easily, you will get cited more often
 > - You can create more impact if it's easier for others to use your data
 > - ...
 >
 {: .checklist}
 
 
-## How do I get started?
+## Getting started with FAIR (climate) data
 
-In this tutorial we will discuss the following elements that can help you
-get started:
+As mentioned above, the FAIR principles are intended as guidelines to increase
+the reusability of research data. However, how they are applied in practice
+depends very much on the domain and the specific use case at hand.
+
+For the domain of climate sciences, some standards have already been developed
+that you can use right away. In fact, you might already be using some of them
+without realizing it. NetCDF files, for example, already implement some of the
+FAIR principles around data modelling. But sometimes you need to find your own
+way.
+
+This tutorial contains six thematic episodes that cover the basic steps to
+making data FAIR. We will explain how these topics relate to the FAIR
+principles, what you can already do today, and where appropriate, we will point
+out existing standards for climate data.
+
+The episodes are:
 
 - Documentation: helps to make data reusable, especially for humans
-- Metadata:
-- Data formats:
-- Data access: we will discuss different aspects of accessibility and data repositories
-- Identifiers:
-- Licences:
-
-Where appropriate, we will point out existing standards for climate data.
-
+- Metadata: similar to documentation, although typically more structure and standardized
+- Data formats: highly relevant for interoperability and long-term preservation of data
+- Data access: data repositories as well as software can greatly increase data access and findability
+- Identifiers: very important for reproducibility, but also for data access and findability
+- Licences: well chosen licences facilitate re-use and make sure you get the credits you deserve (if you so desire)
 
 > ## Evaluate one of your own datasets
 >
 > Pick one dataset that you've created or worked with recently, and answer the
 > following questions:
 >
-> - If somebody get this data set from you, would be able to understand the
->   structure and content without asking you?
-> - Do you know who has access to this data set? Could somebody easily have access
->   to this data set? How?
-> - Does this data set needs a proprietary software to be used?
-> - Does this data set has a persistent identifier or usage licence?
+> - If somebody gets this dataset from you, would they be able to understand
+>   the structure and content without asking you?
+> - Do you know who has access to this dataset? Could somebody easily have access
+>   to this dataset? How?
+> - Does this dataset needs a proprietary software to be used?
+> - Does this dataset have a persistent identifier or usage licence?
 >
 {: .challenge}
 
