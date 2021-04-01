@@ -41,7 +41,7 @@ This is particularly relevant for working with and discovering new data.
 
 > ## What the FAIR principles are **not**
 >
-> - A standard: The FAIR principles need to be adapted and followed as much as
+> - A standard: The FAIR principles need to be adopted and followed as much as
 >   possible by considering the research practices in your field.
 >
 > - All or nothing: making a dataset (more) FAIR can be done in small,
@@ -67,7 +67,7 @@ CC-BY licence. Source: <https://doi.org/10.5281/zenodo.3695300>*
 > al.*](https://doi.org/10.1038/sdata.2016.18) (See "Box 2: The FAIR Guiding
 > Principles"). After reading this, answer the following questions:
 >
-> - Are there any terms that you are unfamiliar with
+> - Are there any terms that you are unfamiliar with?
 > - Are there any principles that you could implement right away?
 > - What do you think would be the most challenging principle to implement?
 >
@@ -110,7 +110,7 @@ depends very much on the domain and the specific use case at hand.
 For the domain of climate sciences, some standards have already been developed
 that you can use right away. In fact, you might already be using some of them
 without realizing it. NetCDF files, for example, already implement some of the
-FAIR principles around data modelling. But sometimes you need to find your own
+FAIR principles around data modeling. But sometimes you need to find your own
 way.
 
 This tutorial contains six thematic episodes that cover the basic steps to
@@ -121,7 +121,7 @@ out existing standards for climate data.
 The episodes are:
 
 - Documentation: helps to make data reusable, especially for humans
-- Metadata: similar to documentation, although typically more structure and standardized
+- Metadata: similar to documentation, although typically more structured and standardized
 - Data formats: highly relevant for interoperability and long-term preservation of data
 - Data access: data repositories as well as software can greatly increase data access and findability
 - Identifiers: very important for reproducibility, but also for data access and findability
@@ -136,7 +136,7 @@ The episodes are:
 >   the structure and content without asking you?
 > - Do you know who has access to this dataset? Could somebody easily have access
 >   to this dataset? How?
-> - Does this dataset needs a proprietary software to be used?
+> - Does this dataset needs proprietary software to be used?
 > - Does this dataset have a persistent identifier or usage licence?
 >
 {: .challenge}
