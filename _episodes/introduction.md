@@ -5,43 +5,74 @@ exercises: 10
 questions:
 - "What are the FAIR principles?"
 - "Why should I care to be FAIR?"
+- "How do I get started?"
 
 objectives:
-- "Find relevant information on FAIR data requirements"
-- "Express a vision on reproducible research"
-- "Recognize possibilities for making a dataset more FAIR"
+- "Identify the FAIR principles"
+- "Recognize the importance of moving towards FAIR in research"
+- "Relate the components of this lesson to the FAIR principles"
 
 keypoints:
 - "The FAIR principles state that data should be Findable, Accessible,
   Interoperable, and Reusable."
 - "FAIR data enhance impact, reuse, and transparancy of research."
 - "FAIRification is an ongoing effort accross many different fields."
-- "FAIR principles are a set of guiding principles, not rules or standards." 
+- "FAIR principles are a set of guiding principles, not rules or standards."
 ---
 
 ## What is FAIR?
 
-FAIR is an acronym for Findable, Accessible, Interoperable, Reusable.
 The FAIR principles for research data, originally published in a [2016 Nature
 paper](https://doi.org/10.1038/sdata.2016.18), are intended as "a guideline for
 those wishing to enhance the reusability of their data holdings." This guideline
 has subsequently been endorsed by working groups, funding bodies and
 institutions.
 
-The FAIR principles have a strong focus on "machine-actionability".
-This means that the data should be easily readable by computers (and not only by humans). This is particularly relevant for working with and discovering new data.
+FAIR is an acronym for Findable, Accessible, Interoperable, Reusable.
+
+- Findable: others (both human and machines) can discover the data
+- Accessible: others can access the data
+- Interoperable: the data can easily be used by machines or in data analysis workflows.
+- Re-usable: the data can easily be used by others for new research
+
+The FAIR principles have a strong focus on "machine-actionability". This means
+that the data should be easily readable by computers (and not only by humans).
+This is particularly relevant for working with and discovering new data.
+
+> ## What the FAIR principles are **not**
+>
+> - A standard: The FAIR principles need to be adopted and followed as much as
+>   possible by considering the research practices in your field.
+>
+> - All or nothing: making a dataset (more) FAIR can be done in small,
+>   incremental steps.
+>
+> - Open data: FAIR data does not necessarily mean openly available. For
+>   example, some data cannot be shared openly because of privacy
+>   considerations. As a rule of thumb, data should be *"as open as possible, as
+>   closed as necessary."*
+>
+> - Tied to a particular technology or tool. There might be different tools that
+>   enable FAIR data within different disciplines or research workflows.
+>
+{: .callout}
 
 ![FAIR principles illustration by Scriberia](../fig/FAIRPrinciples.jpg) *This
 image was created by Scriberia for The Turing Way community and is used under a
 CC-BY licence. Source: <https://doi.org/10.5281/zenodo.3695300>*
 
-> ## FAIR is not open
+> ## Discuss the different principles
 >
-> Some data cannot be shared openly, for example, because of privacy considerations.
-> For such situations, the EU H2020 Program Guidelines on FAIR Data say that the data should be *"As open as possible, as closed as necessary."*
+> Read the summary table of the 15 FAIR principles in [Wilkinson *et
+> al.*](https://doi.org/10.1038/sdata.2016.18) (See "Box 2: The FAIR Guiding
+> Principles"). After reading this, answer the following questions:
 >
+> - Are there any terms that you are unfamiliar with?
+> - Are there any principles that you could implement right away?
+> - What do you think would be the most challenging principle to implement?
 >
-{: .callout}
+{: .discussion}
+
 
 ## Why FAIR?
 
@@ -58,50 +89,56 @@ CC-BY licence. Source: <https://doi.org/10.5281/zenodo.3695300>*
 
 > ## What's in it for you?
 >
-> Many funders nowadays require from researchers data management plans which
-> adhere to the FAIR principles. A great step forward, but if 
-> we are going to spend the time and effort, we prefer to find some intrinsic 
-> motivation.
+> FAIR data sounds like a lot of work. Is it worth it? Here are some of the benefits:
 >
-> Have a look at the original [Nature paper](https://doi.org/10.1038/sdata.2016.18)
-> on FAIR Data, the [GO-FAIR initiative](https://www.go-fair.org/fair-principles/),
-> and the Danish tutorial [howtofair.dk](https://www.howtofair.dk/why-fair/).
-> What are the main reasons for *you* to (not) embrace the FAIR principles?
-{: .discussion}
+> - Funder requirements
+> - It makes your work more visible
+> - Increase the reproducibility of your work
+> - If others can use it easily, you will get cited more often
+> - You can create more impact if it's easier for others to use your data
+> - ...
+>
+{: .checklist}
 
-## How FAIR are my data?
-_AK: The title was a bit misleading; there isn't much about FAIRification process itself._
 
-It is important to realize that the FAIR principles are not rules or standards.
-They are a set of guiding principles, but their implementation may differ per
-field or even per project. Since the principles have originally been established
-only in 2016, a comprehensive set of specific requirements for FAIR data is
-lacking for most fields.
+## Getting started with FAIR (climate) data
 
-In this tutorial, we will therefore interpret "FAIRness" as a continous scale
-(less FAIR vs. more FAIR) rather than a binary classification (FAIR vs. not FAIR) (Mons et al., 2017).
-Some steps can already be taken today, whereas other steps require the
-development of standards across a scientific domain, or even changes to the funding model of projects.
-We will aim to identify those quick wins and to facilitate the discussion on more involved developments.
+As mentioned above, the FAIR principles are intended as guidelines to increase
+the reusability of research data. However, how they are applied in practice
+depends very much on the domain and the specific use case at hand.
 
-> ## Select your case study for the tutorial
+For the domain of climate sciences, some standards have already been developed
+that you can use right away. In fact, you might already be using some of them
+without realizing it. NetCDF files, for example, already implement some of the
+FAIR principles around data modeling. But sometimes you need to find your own
+way.
+
+This tutorial contains six thematic episodes that cover the basic steps to
+making data FAIR. We will explain how these topics relate to the FAIR
+principles, what you can already do today, and where appropriate, we will point
+out existing standards for climate data.
+
+The episodes are:
+
+- Documentation: helps to make data reusable, especially for humans
+- Metadata: similar to documentation, although typically more structured and standardized
+- Data formats: highly relevant for interoperability and long-term preservation of data
+- Data access: data repositories as well as software can greatly increase data access and findability
+- Identifiers: very important for reproducibility, but also for data access and findability
+- Licences: well chosen licences facilitate re-use and make sure you get the credits you deserve (if you so desire)
+
+> ## Evaluate one of your own datasets
 >
-> In the tutorial we will be using real use cases to assess the FAIRness of a
-> dataset and identify possibilities for improvement. Take a few minutes to find
-> a suitable use cases. This may be one of your own projects or (recent) papers,
-> or you may select another study you find interesting.
+> Pick one dataset that you've created or worked with recently, and answer the
+> following questions:
 >
-> Write down:
+> - If somebody gets this dataset from you, would they be able to understand
+>   the structure and content without asking you?
+> - Do you know who has access to this dataset? Could somebody easily have access
+>   to this dataset? How?
+> - Does this dataset needs proprietary software to be used?
+> - Does this dataset have a persistent identifier or usage licence?
 >
-> - Any input dataset(s) that were used for this study
-> - The methods, tools or models that were applied to these data
-> - A short description of the output data that was generated
-> - Additional information that you find relevant (e.g. the scientific domain,
->   project, journal, community)
->
-> If you can't find a suitable project, you may use [the example paper by
-> Glotter et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4066535/) (which
-> was randomly selected by the authors of this tutorial).
 {: .challenge}
 
 ## Further reading
