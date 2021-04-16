@@ -184,9 +184,11 @@ of these websites are not maintained, resulting in inaccessible datasets.
 ## Data repositories
 
 Many institutions and organisations have data repositories, where we can publish
-or preserve our reaserch data. We need to think about _if_ and _how_ and _where_
-we want to share our data. Please pay attention to legal basis and protocols for
-access to sensitive or personal data.
+or preserve our research data. We need to think about _if_ and _how_ and _where_
+we want to share our data. Please pay attention to the legal basis and protocols
+for access to sensitive or personal data. In these cases, the FAIRness is made
+by adding metadata and a clear description. So, users know that the data exist
+and how access to the data can be granted e.g. for research purposes.
 
 Next to large-scale general-use repositories such as
 [Zenodo](https://zenodo.org/), there are also several domain-specific
